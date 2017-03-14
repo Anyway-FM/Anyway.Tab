@@ -2,10 +2,10 @@ var gulp = require('gulp'),
     gulpLoadPlugins = require('gulp-load-plugins'),
     plugins = gulpLoadPlugins();
  
-var jsAll = [
+var cdnFile = [
 	[
-		"<script src='./js/jquery.min.js'></script><script src='./js/jquery-dateFormat.min.js'></script><script src='./js/main.js'></script>",
-		"<script src='all.js'></script>" 
+		"./json/anyway.quote.json",
+		"http://anyway-web.b0.upaiyun.com/anyway.quote/anyway.quote.json" 
 	]
 ];
  
@@ -17,7 +17,6 @@ gulp.task('watch', function() {
 gulp.task('default', function() {
 
 	gulp.src('anyway.html')
-		.pipe(plugins.batchReplace(jsAll))
 		.pipe(gulp.dest('build'));
 		
 	gulp.src('icons/*.png')
@@ -31,8 +30,8 @@ gulp.task('default', function() {
 		
 	gulp.src(['js/*.js'])
 		.pipe(plugins.uglify())
-		.pipe(plugins.concat('all.js'))
-		.pipe(gulp.dest('build'));
+		.pipe(plugins.batchReplace(cdnFile))
+		.pipe(gulp.dest('build/js'));
 		
 	gulp.src(['*.css'])
 		.pipe(plugins.cleanCss())
