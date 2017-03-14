@@ -1,6 +1,5 @@
 var successQuote = false
-var onlineQuoteUrl = "http://anyway-web.b0.upaiyun.com/anyway.quote/anyway.quote.json"
-var onlineRSSUrl = "http://anyway-web.b0.upaiyun.com/anyway.quote/config.json"
+var onlineQuoteUrl = "./json/anyway.quote.json"
 
 updateQuote = function(quote, author, source, url) {
 	$("p.quote").text(quote)
@@ -13,8 +12,8 @@ updateQuote = function(quote, author, source, url) {
 }
 
 var localQuote = function() {
-	$.getJSON('./json/quotes.json', function(data) {
-		var x = Math.round(Math.random()*(data.length-1))
+	$.getJSON('./json/local-quotes.json', function(data) {
+		var x = Math.round(Math.random()*(data.length-2)) + 1
 		var author = data[x][0]
 		var quote = data[x][1]
 		var source = data[x][2]
@@ -26,15 +25,13 @@ var localQuote = function() {
 var liveCheck = function() {
 	$.getJSON(onlineQuoteUrl, function(data) {
 		successQuote = true
-		var x = Math.round(Math.random()*(data.length-1))
+		var x = Math.round(Math.random()*(data.length-2)) + 1
 		var author = data[x][0]
 		var quote = data[x][1]
 		var source = data[x][2]
 		var url = data[x][3]
 		updateQuote(quote, author, source, url)
-	})
-	
-	$.getJSON(onlineRSSUrl, function(data) {
+		
 		$("footer").css('display','block')
 		$(".latest-link").attr('href',data[0][2])
 		$(".latest-episode").text(data[0][0])
@@ -44,6 +41,7 @@ var liveCheck = function() {
 		daysBetween = now - data[0][3]
 		console.log(now)
 	})
+	
 }
 
 setTimeout(function() {

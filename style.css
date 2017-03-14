@@ -17,10 +17,26 @@ body{
 	font-family: 'Avenir Next', 'Hiragino Sans GB', -apple-system-, sans-serif;	
 }
 cite, footer, p:before{
-	font-family: 'Calluna Sans', 'Hiragino Sans GB', -apple-system-, sans-serif;
+	font-family: 'Anyway Type', 'Hiragino Sans GB', -apple-system-, sans-serif;
 }
 ::selection{ 
 	background: #eee;
+}
+@font-face {
+    font-family: 'Anyway Type';
+    src: url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff') format('woff'),
+	    	url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Anyway Type';
+	src: url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff') format('woff'),
+    		url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;    
 }
 blockquote{
 	text-align: left;
@@ -71,6 +87,7 @@ cite em{
 .source a{
 	text-decoration: none;
 }
+/*~Footer*/
 footer{
 	display: none;
 	position: fixed;
@@ -82,12 +99,16 @@ footer{
 	color: #999;
 	border-top: 1px solid #ddd;
 	padding: 0;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 14px;
 }
 footer a{
 	text-decoration: none;
 	font-size: 18px;
+}
+footer em{
+	font-style: normal;
+	opacity: .3;
 }
 footer a:visited{
 	color: #999;
