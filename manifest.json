@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Anyway.Quote 安妮薇语录",
+  "description": "把 Anyway.FM 节目中的经典语录作为 Chrome 新建 Tab，同时推送上新番的提醒",
+  "version": "0.0.1",
+
+  "author": "JJ Ying",
+
+  "chrome_url_overrides" : {
+    "newtab": "anyway.html"
+  },
+
+  "icons": { 
+    "16": "icons/icon_16.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png" 
+  }
+}
