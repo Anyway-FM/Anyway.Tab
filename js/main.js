@@ -5,7 +5,7 @@ updateQuote = function(quote, author, episode, source, url) {
 	$("p.quote").text(quote)
 	$("span.author").text(author)
 	if ( source != "") {
-		$("span.source").css('display','inline')
+		$("span.source").css('opacity','1')
 		$("a.source-link").text(source)
 		$(".source-episode").text(episode)
 		$("a.source-link").attr('href',url)
@@ -35,7 +35,7 @@ var liveCheck = function() {
 		var url = data[x][4]
 		updateQuote(quote, author, episode, source, url)
 		
-		$("footer").css('display','block')
+		$("footer").css('opacity','1')
 		$(".latest-link").attr('href',data[0][2])
 		$(".latest-episode").text(data[0][0])
 		$(".latest-title").text(data[0][1])
@@ -43,14 +43,17 @@ var liveCheck = function() {
 		nowDays = countDays($.format.date( now, "yyyy"),$.format.date( now, "M"),$.format.date( now, "d"))
 		latestDays = countDays(data[0][3],data[0][4],data[0][5])
 		var daysBetween =  nowDays - latestDays
-		if (daysBetween < 3) {
-			displayDays = "就这两天更新的！满意了吧！"
+		if (daysBetween < 2) {
+			displayDays = "更了！更了！终于更了！"
+		}
+		else if ( daysBetween < 3) {
+			displayDays = "前两天刚上新！该满意了吧！"
 		}
 		else if ( daysBetween < 6) {
-			displayDays = "Anyway.FM  最新一期是 "+ daysBetween + " 天前更新的："
+			displayDays = "Anyway.FM 最新一期是 "+ daysBetween + " 天前更新的哟"
 		}
 		else if ( daysBetween < 9) {
-			displayDays = "下面这期已经发布一周了，我们的安妮薇邮报应该快发行新一期了哟~"
+			displayDays = "下面这期已经发布一周了，我们的<a href='http://anyway.fm/post/'>安妮薇邮报</a>应该快发行新一期了哟"
 		}
 		else if ( daysBetween < 11) {
 			displayDays = "我也知道有快十天没更新了，求别催了！这上一期再随便听听吧！"
@@ -62,12 +65,15 @@ var liveCheck = function() {
 			displayDays = "我知道你等不及了……这次他俩肯定又偷懒了"
 		}
 		else if ( daysBetween < 21) {
-			displayDays = "这都快三个礼拜了，等不及了可以发邮件给他们问问看"
+			displayDays = "这都快三个礼拜了，等不及了可以<a href='mailto:hello@anyway.fm'>发邮件</a>给他们问问看"
+		}
+		else if ( daysBetween < 60) {
+			displayDays = "距离上次更新整整 " + daysBetween + " 天了，JJ 和 Leon 难道已经挂了"
 		}
 		else {
-			displayDays = "距离上次更新整整 " + daysBetween + " 天了，JJ 和 Leon 难道挂了"
+			displayDays = "如果你能看到这条……很有可能天网已经占领地球了……祝你好运吧"
 		}
-		$(".days-between").text( displayDays )
+		$(".days-between").html( displayDays )
 		if ( daysBetween < 4 ) {
 			$(".new-badge").css('display','inline')
 		}
