@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 var cdnFile = [
 	[
 		"./json/anyway.quote.json",
-		"http://anyway-web.b0.upaiyun.com/anyway.quote/anyway.quote.json" 
+		"http://jjying-1253470762.cossh.myqcloud.com/anyway.quote/anyway.quote.json" 
 	]
 ];
  
@@ -21,9 +21,13 @@ gulp.task('default', function() {
 		
 	gulp.src('icons/*.png')
 		.pipe(gulp.dest('build/icons'));
+	
+	gulp.src('json/anyway.quote.json')
+		.pipe(plugins.jsonMinify())
+		.pipe(gulp.dest('build/json'))
+		.pipe(plugins.rename('local-quotes.json'))
+		.pipe(gulp.dest('build/json'));		
 		
-	gulp.src('json/local-quotes.json')
-		.pipe(gulp.dest('build/json'));
 		
 	gulp.src('manifest.json')
 		.pipe(gulp.dest('build'));

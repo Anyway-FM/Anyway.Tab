@@ -6,6 +6,7 @@
     "gulp-concat": "*",
     "gulp-uglify": "*",
     "gulp-batch-replace": "*",
+    "gulp-json-minify": "*",
     "gulp-htmlmin": "*"
   }
 }
