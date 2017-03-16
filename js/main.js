@@ -109,14 +109,12 @@ countDays = function(y,m,d) {
 		break
 	}
 	days += parseInt(d)
-	console.log(days)
 	return days
 }
 
 setTimeout(function() {
     if ( !successQuote ){
     	localQuote()
-        console.log("Load Local Quote")
     }
 }, 700)
 
