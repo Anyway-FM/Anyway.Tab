@@ -21,6 +21,7 @@ var localQuote = function() {
 		var source = data[x][3]
 		var url = data[x][4]
 		updateQuote(quote, author, episode, source, url)
+		console.log("local")
 	})
 }
 
@@ -116,7 +117,7 @@ setTimeout(function() {
     if ( !successQuote ){
     	localQuote()
     }
-}, 700)
+}, 600)
 
 $(window).load(function() {
 	liveCheck()
