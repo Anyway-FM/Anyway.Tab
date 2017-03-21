@@ -1,13 +1,13 @@
 {
-  "dependencies": {
-    "gulp-clean-css": "*",
-    "gulp-rename": "*",
-    "gulp-load-plugins": "*",
-    "gulp-watch": "*",
-    "gulp-concat": "*",
-    "gulp-uglify": "*",
-    "gulp-batch-replace": "*",
-    "gulp-json-minify": "*",
-    "gulp-htmlmin": "*"
-  }
+	"dependencies": {
+		"gulp-clean-css": "*",
+		"gulp-rename": "*",
+		"gulp-load-plugins": "*",
+		"gulp-watch": "*",
+		"gulp-concat": "*",
+		"gulp-uglify": "*",
+		"gulp-batch-replace": "*",
+		"gulp-json-minify": "*",
+		"gulp-htmlmin": "*"
+	}
 }
