@@ -1,3 +1,4 @@
 *.esproj
 node_modules
 *.pem
+source/
