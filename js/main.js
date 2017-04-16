@@ -2,7 +2,7 @@ var successQuote = false
 var onlineQuoteUrl = "./json/anyway.quote.json"
 
 updateQuote = function(quote, author, episode, source, url) {
-	$("p.quote").text(quote)
+	$("p.quote").html(quote)
 	$("span.author").text(author)
 	if ( source != "") {
 		$("span.source").css('opacity','1')
