@@ -71,6 +71,7 @@ p a{
 	color: #333;
 	display: inline-block;
 	border-bottom: 1px dotted #666;
+	border-bottom: 4px solid #e3e3e3;
 }
 p:before{
 	content: "“";
