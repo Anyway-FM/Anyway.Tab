@@ -68,10 +68,24 @@ p{
 }
 p a{
 	text-decoration: none;
-	color: #333;
-	display: inline-block;
-	border-bottom: 1px dotted #666;
-	border-bottom: 4px solid #e3e3e3;
+	color: #555;
+/*	border-bottom: 6px solid #ddd;*/
+	position: relative;
+}
+p a:after{
+	display: block;
+	content: "";
+	height: 12px;
+	background: #ffe324;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	z-index: -999;
+	left: 0;
+	transition: all .15s cubic-bezier(.8, 0, .2, 1);
+}
+p a:hover:after{
+	height: 100%;
 }
 p:before{
 	content: "“";
