@@ -55,6 +55,10 @@ blockquote{
 	left: 15%;
 	width: 70%;
 }
+.quotation-mark{
+	fill: #ddd;
+	width: 40px;
+}
 p{
 	font-size: 60px;
 	line-height: 1.2;
@@ -91,14 +95,14 @@ p a:hover{
 p a:hover:after{
 	height: 100%;
 }
-p:before{
+/*p:before{
 	content: "“";
 	display: block;
 	color: #ddd;
 	font-size: 1.4em;
 	line-height: .5;
 	font-weight: 300;
-}
+}*/
 cite{
  	font-size: 22px;
  	font-style: normal;
