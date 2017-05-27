@@ -19,7 +19,7 @@ var localQuote = function() {
 		var quote = data[x][1]
 		var episode = data[x][2]
 		var source = data[x][3]
-		var url = data[x][4] + "?s=plugin"
+		var url = data[x][4] + "?s=plugin&#title"
 		updateQuote(quote, author, episode, source, url)
 		console.log("local")
 	})
@@ -33,11 +33,11 @@ var liveCheck = function() {
 		var quote = data[x][1]
 		var episode = data[x][2]
 		var source = data[x][3]
-		var url = data[x][4] + "?s=plugin"
+		var url = data[x][4] + "?s=plugin&#title"
 		updateQuote(quote, author, episode, source, url)
 		
 		$("footer").css('opacity','1')
-		$(".latest-link").attr('href',data[0][2] + "?s=plugin")
+		$(".latest-link").attr('href',data[0][2] + "?s=plugin&#title")
 		$(".latest-episode").text(data[0][0])
 		$(".latest-title").text(data[0][1])
 		var now = new Date()
