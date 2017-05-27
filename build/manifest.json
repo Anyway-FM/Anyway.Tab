@@ -2,8 +2,9 @@
   "manifest_version": 2,
 
   "name": "Anyway.Tab",
+  "short_name": "Anyway",
   "description": "把 Anyway.FM 节目中的经典语录作为 Chrome 新建 Tab，同时推送上新番的提醒",
-  "version": "0.0.2",
+  "version": "0.0.3",
 
   "author": "JJ Ying",
 
