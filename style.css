@@ -15,7 +15,7 @@ body{
 	color: #666;
 	overflow: hidden;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-	font-family: "Lato", BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	/*font-family: "Lato", BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;*/
 	animation: fade-in .2s ease-out 1;
 }
 @keyframes fade-in {
@@ -90,7 +90,7 @@ p a:after{
 	transition: all .15s cubic-bezier(.8, 0, .2, 1);
 }
 p a:hover{
-	color: #444;	
+	color: #444;
 }
 p a:hover:after{
 	height: 100%;
