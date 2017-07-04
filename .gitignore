@@ -3,14 +3,3 @@ node_modules
 *.pem
 source/
 build/
-build/*
-versions/
-build/json/anyway.quote.json
-build/json/anyway.quote.json
-build/json/local-quotes.json
-build/manifest.json
-build/style.css
-build/json/anyway.quote.json
-build/json/local-quotes.json
-
-build/style.css
