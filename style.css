@@ -11,16 +11,11 @@ body{
 	width: 100%;
 	height: 100%;
 	margin: auto;
-	background: #f8f8f8;
+	background: #fff;
 	color: #666;
 	overflow: hidden;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 	/*font-family: "Lato", BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;*/
-	animation: fade-in .2s ease-out 1;
-}
-@keyframes fade-in {
-	0%{background-color: #fff;}
-	100%{background-color: #f8f8f8;}
 }
 a{
 	transition: color .1s ease-in-out;
@@ -158,9 +153,9 @@ footer{
 footer strong{
 	font-weight: 100;
 	display: inline-block;
-	background: #f8f8f8;
+	background: #fff;
 	padding: 0 1em;
-	color: #ccc;
+	color: #bbb;
 	margin: 0 auto;
 	transform: translateY(-.8em);
 	font-size: 16px;	
