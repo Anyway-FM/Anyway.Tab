@@ -17,28 +17,28 @@ gulp.task('watch', function() {
 gulp.task('default', function() {
 
 	gulp.src('anyway.html')
-		.pipe(gulp.dest('build'));
+		.pipe(gulp.dest('builds'));
 		
 	gulp.src('icons/*.png')
-		.pipe(gulp.dest('build/icons'));
+		.pipe(gulp.dest('builds/icons'));
 	
 	gulp.src('json/anyway.quote.json')
 		.pipe(plugins.jsonMinify())
-		.pipe(gulp.dest('build/json'))
+		.pipe(gulp.dest('builds/json'))
 		.pipe(plugins.rename('local-quotes.json'))
-		.pipe(gulp.dest('build/json'));		
+		.pipe(gulp.dest('builds/json'));		
 		
 		
 	gulp.src('manifest.json')
-		.pipe(gulp.dest('build'));
+		.pipe(gulp.dest('builds'));
 		
 	gulp.src(['js/*.js'])
 		.pipe(plugins.uglify())
 		.pipe(plugins.batchReplace(cdnFile))
-		.pipe(gulp.dest('build/js'));
+		.pipe(gulp.dest('builds/js'));
 		
 	gulp.src(['*.css'])
 		.pipe(plugins.cleanCss())
-		.pipe(gulp.dest('build'));     
+		.pipe(gulp.dest('builds'));     
 });
 
