@@ -3,8 +3,8 @@
 
   "name": "Anyway.Tab",
   "short_name": "Anyway",
-  "description": "把 Anyway.FM 节目中的语录和推荐作为 Chrome 新建 Tab，同时推送上新番的提醒",
-  "version": "0.1.0",
+  "description": "把 Anyway.FM 节目中的参考链接推荐（和一些玩笑）显示在 Chrome 新建 Tab 上，同时推送新番的提醒",
+  "version": "0.1.1",
 
   "author": "JJ Ying",
 
