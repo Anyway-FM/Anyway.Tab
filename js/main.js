@@ -1,5 +1,12 @@
 var successQuote = false
-var onlineQuoteUrl = "./json/anyway.quote.json"
+var onlineQuoteUrl = "./json/anyway.tab.json"
+
+var forceReload = Math.random()
+if (forceReload < 0.16) {
+	$.ajaxSetup({
+	  cache:false
+	});
+}
 
 updateQuote = function(quote, author, episode, source, url) {
 	$("p.quote").html(quote)
@@ -13,7 +20,7 @@ updateQuote = function(quote, author, episode, source, url) {
 }
 
 var localQuote = function() {
-	$.getJSON('./json/local-quotes.json', function(data) {
+	$.getJSON('./json/local.json', function(data) {
 		var x = Math.round(Math.random()*(data.length-2)) + 1
 		var author = data[x][0]
 		var quote = data[x][1]
