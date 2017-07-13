@@ -82,6 +82,12 @@ p a:after{
 	z-index: -999;
 	left: 0;
 	transition: all .15s cubic-bezier(.8, 0, .2, 1);
+	animation: underline-in .7s cubic-bezier(.9, 0, .1, 1)  0s 1;
+}
+@keyframes underline-in {
+	0%{width: 0;}
+	30%{width: 0;}
+	100%{width: 100%;}
 }
 p a:hover{
 	color: #444;
