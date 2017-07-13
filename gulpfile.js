@@ -4,8 +4,8 @@ var gulp = require('gulp'),
  
 var cdnFile = [
 	[
-		"./json/anyway.quote.json",
-		"http://jjying-1253470762.cossh.myqcloud.com/anyway.quote/anyway.quote.json" 
+		"./json/anyway.tab.json",
+		"http://jjying-1253470762.cossh.myqcloud.com/anyway.tab.json" 
 	]
 ];
  
@@ -22,10 +22,10 @@ gulp.task('default', function() {
 	gulp.src('icons/*.png')
 		.pipe(gulp.dest('builds/icons'));
 	
-	gulp.src('json/anyway.quote.json')
+	gulp.src('json/anyway.tab.json')
 		.pipe(plugins.jsonMinify())
 		.pipe(gulp.dest('builds/json'))
-		.pipe(plugins.rename('local-quotes.json'))
+		.pipe(plugins.rename('local.json'))
 		.pipe(gulp.dest('builds/json'));		
 		
 		
