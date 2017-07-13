@@ -6,6 +6,7 @@
 		"gulp-watch": "*",
 		"gulp-concat": "*",
 		"gulp-uglify": "*",
+		"gulp-archiver": "*",
 		"gulp-batch-replace": "*",
 		"gulp-json-minify": "*",
 		"gulp-htmlmin": "*"
