@@ -45,7 +45,7 @@ a{
 blockquote{
 	text-align: left;
 	position: absolute;
-	top: 21%;
+	top: 19%;
 	left: 15%;
 	width: 70%;
 }
@@ -95,14 +95,6 @@ p a:hover{
 p a:hover:after{
 	height: 100%;
 }
-/*p:before{
-	content: "“";
-	display: block;
-	color: #ddd;
-	font-size: 1.4em;
-	line-height: .5;
-	font-weight: 300;
-}*/
 cite{
  	font-size: 22px;
  	font-style: normal;
@@ -219,46 +211,58 @@ footer strong a{
 	}
 }
 /*~Small Reslotuion*/
-@media screen and (max-width: 1100px) {
-	blockquote{
-		top: 15%;
-		left: 10%;
-		width: 80%;
-	}
-	footer{
-		left: 10%;
-		width: 80%;
-	}
-}
-@media screen and (max-width: 1100px) {
-	blockquote{
-		top: 19%;
-		left: 10%;
-		width: 80%;
-	}
-	footer{
-		left: 10%;
-		width: 80%;
-	}
-}
+
 @media screen and (max-height: 600px) {
 	blockquote{
-		top: 15%;
+		top: 13%;
 	}
 }
 @media screen and (max-height: 500px) {
 	blockquote{
 		top: 11%;
 	}
+	blockquote p{
+		font-size: 40px;
+	}
+	footer{
+		background: #fff;
+	}
+}
+@media screen and (max-width: 1300px) {
+	blockquote{
+		top: 15%;
+	}
+	blockquote p{
+		font-size: 52px;
+	}
+}
+@media screen and (max-width: 1100px) {
+	blockquote{
+		top: 13%;
+		left: 10%;
+		width: 80%;
+	}
+	footer{
+		left: 10%;
+		width: 80%;
+	}
+}
+@media screen and (max-width: 1000px) {
+	blockquote{
+		top: 11%;
+	}
+	blockquote p{
+		font-size: 45px;
+	}
 }
 @media screen and (max-width: 800px) {
 	blockquote{
-		top: 24%;
+		top: 13%;
 		left: 7%;
 		width: 86%;
 	}
 	blockquote p{
-		font-size: 45px;
+		font-size: 40px;
 	}
 	cite{
 		font-size: 14px;
