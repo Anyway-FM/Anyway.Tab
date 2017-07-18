@@ -26,22 +26,6 @@ a{
 	background: #ffe324;
 	color: #444;
 }
-@font-face {
-    font-family: 'Anyway Type';
-    src: url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff') format('woff'),
-	    	url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: fallback;
-}
-@font-face {
-    font-family: 'Anyway Type';
-	src: url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff') format('woff'),
-    		url('http://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: fallback;    
-}
 blockquote{
 	text-align: left;
 	position: absolute;
@@ -196,12 +180,11 @@ footer strong a{
 	font-size: .5em;
 	display: none;
 	background: #ffe324;
-	color: #333;
+	color: #222;
 	vertical-align: top;
-	padding: .3em .6em .2em;
+	padding: .3em .6em .3em;
 	border-radius: 1em;
 	font-weight: 700;
-	font-family: Arial;
 }
 /*~Large Reslotuion*/
 @media screen and (min-width: 1600px) {
