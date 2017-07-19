@@ -19,9 +19,6 @@ body{
 a{
 	transition: color .1s ease-in-out;
 }
-/*cite, footer, p:before{
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Helvetica Neue', sans-serif;
-}*/
 ::selection{ 
 	background: #ffe324;
 	color: #444;
