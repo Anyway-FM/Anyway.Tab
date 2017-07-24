@@ -1,378 +1,604 @@
 {
-"latest": [
-	[
+"settings": {
+	"latest": [
 		"44",
-		"各种图片佛麦塔们",
-		"http://anyway.fm/image-formats/",
 		"2017",
 		"7",
 		"20"
+	],
+	"notifications": [
+		"",
+		"",
+		""
 	]
-],
-"quote": [
+},
+"episodes": {
+	"44": [
+		"各种图片佛麦塔们",
+		"http://anyway.fm/image-formats/"
+	],
+	"43": [
+		"没声音，再好的戏也要打折扣",
+		"http://anyway.fm/designing-sound/"
+	],
+	"42": [
+		"设计行业里有「歧视」吗？",
+		"http://anyway.fm/discrimination-in-design/"
+	],
+	"41": [
+		"别买「设计工具书」",
+		"http://anyway.fm/crappy-books/"
+	],
+	"40": [
+		"180° 第八期 • 他……又来了……",
+		"http://anyway.fm/180-degree-hxxland-2/"
+	],
+	"39": [
+		"设计师的调校",
+		"http://anyway.fm/fine-tuning-designer/"
+	],
+	"38": [
+		"八一八那些「妖孽」的术语",
+		"http://anyway.fm/ui-terms-1/"
+	],
+	"37": [
+		"180° 第七期 • 果断的访问步果断",
+		"http://anyway.fm/180-degree-kidaubis/"
+	],
+	"36": [
+		"Anway.Review #3 － Bear & More",
+		"http://anyway.fm/anyway-review-3-bear/"
+	],
+	"35": [
+		"Anyway.Type Part.I",
+		"http://anyway.fm/anyway-type-1/"
+	],
+	"34": [
+		"今时今日设计师还需要独立个人网站吗？",
+		"http://anyway.fm/personal-websites/"
+	],
+	"33": [
+		"Yo! Anyway :) 优设+安妮薇在咖啡馆的下午",
+		"http://anyway.fm/with-uisdc/"
+	],
+	"32": [
+		"180° 第六期 • 狄更斯见到都不知怎么形容的雾霾天里，我们走访了绘麟社",
+		"http://anyway.fm/180-degree-idooky/"
+	],
+	"31": [
+		"切图是很重要的！",
+		"http://anyway.fm/180-degree-sharoooon/"
+	],
+	"30": [
+		"Anyway with U #1",
+		"http://anyway.fm/anyway-with-you-1/"
+	],
+	"29": [
+		"Anyway, 我们在 User Friendly 2016 现场",
+		"http://anyway.fm/user-friendly-2016/"
+	],
+	"28": [
+		"故弄玄虚的设计师 Part. II",
+		"http://anyway.fm/mysteries-in-design-2/"
+	],
+	"27": [
+		"故弄玄虚的设计师 Part. I",
+		"http://anyway.fm/mysteries-in-design/"
+	],
+	"26": [
+		"Anyway.Review #2 － iOS 10 & iPhone 7 series",
+		"http://anyway.fm/anyway-review-2-ios-10-iphone-7/"
+	],
+	"25": [
+		"Anyway Geographic II",
+		"http://anyway.fm/famous-ui-studios-2/"
+	],
+	"24": [
+		"聊聊抄袭",
+		"http://anyway.fm/copy-steal/"
+	],
+	"23": [
+		"180° 第四期 • 狮城小王子",
+		"http://anyway.fm/180-degree-danis/"
+	],
+	"22": [
+		"Anyway.Review #1",
+		"http://anyway.fm/anyway-review-1/"
+	],
+	"21":[
+		"180° 第三期 • 小米生态链产品负责人：李创奇",
+		"http://anyway.fm/featuring-mouce-lee/"
+	],
+	"20":[
+		"Anyway Geographic",
+		"http://anyway.fm/famous-ui-studios/"
+	],
+	"19":[
+		"ICONの醍醐味",
+		"http://anyway.fm/on-icons/"
+	],
+	"18":[
+		"[ˈrɛtnə]",
+		"http://anyway.fm/retina-display/"
+	],
+	"17":[
+		"「教练，我想打篮球」",
+		"http://anyway.fm/dribbble-sins/"
+	],
+	"16":[
+		"向左走，向右走",
+		"http://anyway.fm/big-or-small/"
+	],
+	"15":[
+		"设计师怎样去寻找个人风格？",
+		"http://anyway.fm/finding-your-own-style-as-a-designer/"
+	],
+	"14":[
+		"180° 第二期 • 火山大陆滕磊先森的开车 / 船指南",
+		"http://anyway.fm/180-degree-hxxland/"
+	],
+	"13":[
+		"UI 是架通现实与虚拟的媒介",
+		"http://anyway.fm/physicality-and-realism/"
+	],
+	"12":[
+		"自己欠下的债，含着泪也要还完",
+		"http://anyway.fm/audience-feedback-2016-2/"
+	],
+	"11":[
+		"快过年了，我们懒得想名字了可以伐？",
+		"http://anyway.fm/complain-in-chinese-year-end/"
+	],
+	"10":[
+		"180° —— 第一期就是一起来和一奇聊聊",
+		"http://anyway.fm/180-degree-kee-lee-from-smartisan/"
+	],
+	"9":[
+		"私•生活 —— 八小时外的工作",
+		"http://anyway.fm/freelancing-works/"
+	],
+	"8":[
+		"设计真的驱得动吗？",
+		"http://anyway.fm/is-design-driven-a-myth/"
+	],
+	"7":[
+		"《40 分钟》节目不深入了解苹果",
+		"http://anyway.fm/inside-apple/"
+	],
+	"6":[
+		"从 Photoshop CC 2015.1 聊起",
+		"http://anyway.fm/adobe-photoshop-cc-2015-1/#title"
+	],
+	"5":[
+		"UI 设计师的养成（下）",
+		"http://anyway.fm/ui-designer-growth-3-habbits/"
+	],
+	"4":[
+		"UI 设计师的养成（中）",
+		"http://anyway.fm/ui-designer-growth-2-jobs/"
+	],
+	"3":[
+		"UI 设计师的养成（上）",
+		"http://anyway.fm/ui-designer-growth/"
+	],
+	"2":[
+		"当年的那些图标大师们",
+		"http://anyway.fm/famous-icon-designers/"
+	],
+	"1":[
+		"日本街头的图形标识",
+		"http://anyway.fm/japan-street-visual-elements/"
+	],
+	"all":[
+		"几乎每一期",
+		"http://anyway.fm/"
+	]
+},
+"quotes": [
 	[
 		"JJ Ying",
 		"对不起！我错了！",
-		"all",
-		"几乎每一期",
-		"http://anyway.fm/"
+		"all"
 	],
 	[
-		"JJ Ying",
+		"Leon Gao",
 		"假如你看到 <span style='color: #f0f;'>#FF00FF</span> 这个颜色觉得很亲切，说明你也老了……👻",
-		"44",
-		"各种图片佛麦塔们",
-		"http://anyway.fm/image-formats/"
+		"44"
 	],
 	[
 		"JJ Ying",
 		"Apple 官方的正版 <a href='http://anyway.design/t/?t=http://v.youku.com/v_show/id_XMTM5Mjk5NTU4MA==.html'>One More Thing</a> 合集",
-		"44",
-		"各种图片佛麦塔们",
-		"http://anyway.fm/image-formats/"
+		"44"
 	],
 	[
 		"Leon Gao",
 		"我不喜欢 <a href='http://anyway.design/t/?t=https://itunes.apple.com/cn/app/tweetbot-4-for-twitter/id1018355599?mt=8&at=1010lqta'>Tweetbot</a> 的主要原因是……他的 App Icon 长得像个飞机杯……",
-		"43",
-		"没声音，再好的戏也要打折扣",
-		"http://anyway.fm/designing-sound/"
+		"43"
 	],
 	[
 		"JJ Ying",
 		"iOS 里那些音效是怎么演奏的？看看 Apple 的音效设计师在 WWDC 上的分享：<a href='http://anyway.design/t/?t=https://developer.apple.com/videos/play/wwdc2017/803/'>Designing Sounds</a>",
-		"43",
-		"没声音，再好的戏也要打折扣",
-		"http://anyway.fm/designing-sound/"
+		"43"
 	],
 	[
 		"JJ Ying",
 		"想在我台官网使用自定义头像？请用留言时设置的邮箱注册 <a href='http://anyway.design/t/?t=http://cn.gravatar.com/'>Gravatar</a>",
-		"42",
-		"设计行业里有「歧视」吗？",
-		"http://anyway.fm/discrimination-in-design/"
+		"42"
 	],
 	[
 		"JJ Ying",
 		"iOS 11 预览版发布的同时，Apple 官方也更新了 <a href='http://anyway.design/t/?t=https://developer.apple.com/design/resources/'>UI 源文件</a>和新版 SF Pro 字体下载",
-		"41",
-		"别买「设计工具书」",
-		"http://anyway.fm/crappy-books/"
+		"41"
 	],
 	[
 		"Leon Gao",
 		"灵活地运用好 Google 和百度，比买啥工具书都管用",
-		"41",
-		"别买「设计工具书」",
-		"http://anyway.fm/crappy-books/"
+		"41"
 	],
 	[
 		"Leon Gao",
 		"把「Design」翻译成「设 • 计」的人真是翻得太精准了！",
-		"40",
-		"180° 第八期 • 他……又来了……",
-		"http://anyway.fm/180-degree-hxxland-2/"
+		"40"
 	],
 	[
 		"JJ Ying",
 		"科普「机器学习」原理的<a href='http://anyway.design/t/?t=http://www.r2d3.us/%E5%9B%BE%E8%A7%A3%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/'>一篇文章</a>，哪怕你跟我一样没看懂，也可以借鉴下其中的可视化设计 😝",
-		"40",
-		"180° 第八期 • 他……又来了……",
-		"http://anyway.fm/180-degree-hxxland-2/"
+		"40"
+	],
+	[
+		"Leon Gao",
+		"没忍住，容我喷一下：Mac 版的 Office 套件就是辣鸡",
+		"39"
+	],
+	[
+		"JJ Ying",
+		"推荐一个知乎专栏：<a href='http://anyway.design/t/?t=https://zhuanlan.zhihu.com/c_87416856'>这个控件叫什么</a>",
+		"38"
+	],
+	[
+		"JJ Ying",
+		"简驾老师写过一篇长文：<a href='http://anyway.design/t/?t=https://www.zhihu.com/question/20664700/answer/15874388'>「确定」按钮应该在左边还是右边</a>",
+		"38"
+	],
+	[
+		"JJ Ying",
+		"Kidaubis 家里除了老婆其他都是通过比赛赢来",
+		"37"
+	],
+	[
+		"JJ Ying",
+		"科普时间：<a href='http://anyway.design/t/?t=https://sspai.com/post/25137'>什么是 Markdown？</a>",
+		"36"
 	],
 	[
 		"JJ Ying",
 		"Myriad 字体的<a href='http://anyway.design/t/?t=https://www.fontshop.com/families/myriad'>小写字母 y</a> 的下沉部，就像是少女的大腿那么性感",
-		"35",
-		"Anyway.Type Part.I",
-		"http://anyway.fm/anyway-type-1/"
+		"35"
 	],
 	[
 		"JJ Ying",
 		"如今更流行几何和 Grotesk 类字体，但我就是偏爱带点人文特性的，比如我台官网所用的 <a href='http://anyway.design/t/?t=https://www.fontshop.com/families/calluna-sans'>Calluna Sans</a>",
-		"35",
-		"Anyway.Type Part.I",
-		"http://anyway.fm/anyway-type-1/"
+		"35"
 	],
 	[
 		"JJ Ying",
 		"我台官网是用的 MediaTemple 的服务器",
-		"34",
-		"今时今日设计师还需要独立个人网站吗？",
-		"http://anyway.fm/personal-websites/"
+		"34"
 	],
 	[
 		"Leon Gao",
 		"我的英文名出处是吕克·贝松的电影《这个杀手不太冷 Léon 》",
-		"32",
-		"180° 第六期 • 狄更斯见到都不知怎么形容的雾霾天里，我们走访了绘麟社",
-		"http://anyway.fm/180-degree-idooky/"
+		"32"
 	],
 	[
 		"相辉",
 		"我们要少一点套路，多一点真诚",
-		"32",
-		"180° 第六期 • 狄更斯见到都不知怎么形容的雾霾天里，我们走访了绘麟社",
-		"http://anyway.fm/180-degree-idooky/"
+		"32"
 	],
 	[
 		"砂轮",
 		"切图是很重要的！",
-		"31",
-		"180° 第五期 • 入选 App Store 年度精选是怎样的体验",
-		"http://anyway.fm/180-degree-sharoooon/"
+		"31"
+	],
+	[
+		"Leon Gao",
+		"看看国外设计界的<a href='http://anyway.design/t/?t=http://www.kikk.be/2015/'>行业协会官网</a>，国内同行们还是有不少路要走的",
+		"30"
+	],
+	[
+		"JJ Ying",
+		"来自尼尔森的一份<a href='http://anyway.design/t/?t=https://www.nngroup.com/articles/computer-skill-levels/'>电脑使用者技能水平调查报告</a>",
+		"29"
+	],
+	[
+		"JJ Ying",
+		"一组好玩的漫画：<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/how-to-pretend-youre-a-great-designer/'>设计师装逼指南</a>",
+		"28"
+	],
+	[
+		"JJ Ying",
+		"2015 年的时候去硅谷各大 IT 公司走访了一次：<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/visiting-silicon-valley/'>游记在此</a>",
+		"28"
 	],
 	[
 		"JJ Ying",
 		"没事儿的时候就喜欢膜拜一下这个百事可乐 08 年 Redsign 时的<a href='http://anyway.design/t/?t=https://pan.baidu.com/s/1slOY3A9'>PPT</a>，「详解」了「strategy」",
-		"27",
-		"故弄玄虚的设计师 Part. I",
-		"http://anyway.fm/mysteries-in-design/"
+		"27"
+	],
+	[
+		"Leon Gao",
+		"作为一个 Palm 粉，很喜欢「温润如玉」的 <a href='http://anyway.design/t/?t=http://anyway-web.b0.upaiyun.com/images/palm-pre-plus.jpg'>Palm Pre Plus</a>",
+		"26"
+	],
+	[
+		"JJ Ying",
+		"Google 的设计师 Sebastien Gabriel 所写的这一次 Chrome 桌面版<a href='http://anyway.design/t/?t=http://anyway-web.b0.upaiyun.com/images/palm-pre-plus.jpg'>改版的全过程</a>",
+		"26"
+	],
+	[
+		"Leon Gao",
+		"游戏《辐射》的废土世界中的个人信息助理 <a href='http://anyway.design/t/?t=http://nerdist.com/wp-content/uploads/2015/07/PipBoy.jpg'>Pip-Boy</a> 依然是以视觉和触觉为主",
+		"26"
 	],
 	[
 		"JJ Ying",
 		"常见欧洲字体<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/the-pronunciation-of-european-typefaces/?s=plugin'>在各自语言中的发音</a>",
-		"25",
-		"Anyway Geographic II",
-		"http://anyway.fm/famous-ui-studios-2/"
+		"25"
 	],
 	[
 		"JJ Ying",
 		"怀旧时间：eico 创始人 Rokey 在 2004 年 GUI 奥林匹克大赛中的获奖作品 <a href='http://anyway.design/t/?t=http://rokey.deviantart.com/art/the-last-order-candy-7954501'>The Last Order</a>",
-		"25",
-		"Anyway Geographic II",
-		"http://anyway.fm/famous-ui-studios-2/"
+		"25"
 	],
 	[
 		"JJ Ying",
 		"非常仰慕著名 iOS 小游戏 Tiny Wings 的作者 <a href='http://anyway.design/t/?t=http://www.gamelook.com.cn/2015/02/203728'>Andreas Illiger</a>，他能一个人包办代码、UI、美术、音乐",
-		"25",
-		"Anyway Geographic II",
-		"http://anyway.fm/famous-ui-studios-2/"
+		"25"
+	],
+	[
+		"JJ Ying",
+		"TIB 上关于 <a href='http://anyway.design/t/?t=http://www.typeisbeautiful.com/2014/08/8148/'>Avenir 的旧文</a>",
+		"25"
+	],
+	[
+		"JJ Ying",
+		"旧书推荐：<a href='http://anyway.design/t/?t=http://iconhandbook.co.uk/'>The Icon Handbook</a>",
+		"25"
 	],
 	[
 		"JJ Ying",
 		"<a href='http://anyway.design/t/?t=http://www.guidebookgallery.org/'>GUIdebook</a> 是个好网站，异常详细地罗列了好多「上古时代」操作系统的截图、介绍",
-		"24",
-		"聊聊抄袭",
-		"http://anyway.fm/copy-steal/"
+		"24"
+	],
+	[
+		"JJ Ying",
+		"我很早以前这个个人页面大概被人当模板教材了，<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/about-page-copycats/'>复制者无数</a>……",
+		"24"
+	],
+	[
+		"JJ Ying",
+		"2016 年更新的<a href='http://anyway.design/t/?t=https://www.wearedesignstudio.com/works/premier-league-rebrand/'>英超 logo</a> 来自designstudio，Airbnb 的 logo 也是他们的作品",
+		"23"
+	],
+	[
+		"Leon Gao",
+		"当年的切图神器 <a href='http://anyway.design/t/?t=http://macrabbit.com/slicy/'>Slicy</a>",
+		"22"
+	],
+	[
+		"JJ Ying",
+		"早已关停的 Mailbox 会把写给自己的邮件的标题显示成「Note to self」，第一次发现这个功能时感动到哭",
+		"22"
 	],
 	[
 		"李创奇",
 		"产品经理最基本的素质是做的东西起码自己喜欢用",
-		"21",
-		"180° 第三期 • 小米生态链产品负责人：李创奇",
-		"http://anyway.fm/featuring-mouce-lee/"
+		"21"
 	],
 	[
 		"JJ Ying",
 		"Sketch 的开发商 Bohemian 在定价策略和对待老用户的态度上有很多<a href='http://anyway.design/t/?t=https://www.zhihu.com/question/23239204/answer/24569690'>黑历史</a>",
-		"20",
-		"Anyway Geographic",
-		"http://anyway.fm/famous-ui-studios/"
+		"20"
 	],
 	[
 		"JJ Ying",
 		"即使在那个「质感为王」的年代，<a href='http://anyway.design/t/?t=http://www.theskinsfactory.com/'>TSF</a> 那些动不动就有 <a href='http://anyway.design/t/?t=https://www.youtube.com/watch?v=mjeERptzg20'>500 多帧片头</a>的播放器皮肤还是让我很震撼的",
-		"20",
-		"Anyway Geographic",
-		"http://anyway.fm/famous-ui-studios/"
+		"20"
+	],
+	[
+		"JJ Ying",
+		"怀旧时间：来自乌克兰的设计工作室 <a href='http://anyway.design/t/?t=http://icondrawer.com/'>IconDrawer</a>",
+		"20"
 	],
 	[
 		"JJ Ying",
 		"怀旧时间：来自腾讯的 Andraw 大师在 2006 年设计的图标集 <a href='http://anyway.design/t/?t=http://skins11.wincustomize.com/25/93/2593155/2/1631/preview-2-1631.jpg'>ROUNDer</a>",
-		"19",
-		"ICONの醍醐味",
-		"http://anyway.fm/on-icons/"
+		"19"
+	],
+	[
+		"JJ Ying",
+		"多语言环境下的设计师「噩梦」：<a href='http://anyway.design/t/?t=http://anyway-web.b0.upaiyun.com/images/macau.jpg'>澳门机场指示牌的日常</a>",
+		"19"
 	],
 	[
 		"JJ Ying",
 		"对于一个有强迫症的设计师来说，iPhone 6 Plus 那块<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/iphone-6-plus-screen-size/?s=plugin'>无法像素精确</a>的屏幕是让人信仰崩塌的",
-		"18",
-		"[ˈrɛtnə]",
-		"http://anyway.fm/retina-display/"
+		"18"
 	],
 	[
 		"JJ Ying",
 		"「Retina」的发音是 [ˈrɛtnə]，重音在前",
-		"18",
-		"[ˈrɛtnə]",
-		"http://anyway.fm/retina-display/"
+		"18"
+	],
+	[
+		"JJ Ying",
+		"还没拿到 iPhone 6 Plus 真机但项目又需要录屏的时候，我只能<a href='http://anyway.design/t/?t=http://anyway-web.b0.upaiyun.com/images/imac-iphone6-plus.jpg'>这么办了</a>",
+		"18"
 	],
 	[
 		"Leon Gao",
 		"不理解执行阶段的乐趣，就别谈能做好创意",
-		"17",
-		"「教练，我想打篮球」",
-		"http://anyway.fm/dribbble-sins/"
+		"17"
 	],
 	[
 		"Leon Gao",
 		"面对物质要求，坦率一点更好",
-		"16",
-		"向左走，向右走",
-		"http://anyway.fm/big-or-small/"
+		"16"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.design/t/?t=https://baike.baidu.com/item/Alan%20Kay/9061036'>Alan Kay</a> 的名言有很多，简直就是电脑科学界的米兰昆德拉",
+		"16"
 	],
 	[
 		"JJ Ying",
 		"「风格」应该是跳脱视觉感受之上的",
-		"15",
-		"设计师怎样去寻找个人风格？",
-		"http://anyway.fm/finding-your-own-style-as-a-designer/"
+		"15"
 	],
 	[
 		"Leon Gao",
 		"高处不胜寒，意见领袖的经历和鸡汤未必适合每个人",
-		"15",
-		"设计师怎样去寻找个人风格？",
-		"http://anyway.fm/finding-your-own-style-as-a-designer/"
+		"15"
 	],
 	[
 		"滕磊",
 		"人生虽然充满了意外与巧合，但始终应该明白自己要的是什么",
-		"14",
-		"180° 第二期 • 火山大陆滕磊先森的开车 / 船指南",
-		"http://anyway.fm/180-degree-hxxland/"
+		"14"
 	],
 	[
 		"滕磊",
 		"面对挫折，别急着失落",
-		"14",
-		"180° 第二期 • 火山大陆滕磊先森的开车 / 船指南",
-		"http://anyway.fm/180-degree-hxxland/"
+		"14"
 	],
 	[
 		"Leon Gao",
 		"UI 设计师就是上帝代理人！",
-		"13",
-		"UI 是架通现实与虚拟的媒介",
-		"http://anyway.fm/physicality-and-realism/"
+		"13"
 	],
 	[
 		"JJ Ying",
 		"每当我失去激情的时候，就会去看看乔老爷子在 2007 年 Macworld 上的<a href='http://anyway.design/t/?t=http://v.youku.com/v_show/id_XMjgxMDE1MzY4.html?from=s1.8-1-1.2'>那场发布会</a>",
-		"13",
-		"UI 是架通现实与虚拟的媒介",
-		"http://anyway.fm/physicality-and-realism/"
+		"13"
 	],	
 	[
 		"Leon Gao",
 		"「拟物化」的反义词应该是「抽象化」而不是「扁平化」",
-		"13",
-		"UI 是架通现实与虚拟的媒介",
-		"http://anyway.fm/physicality-and-realism/"
+		"13"
+	],
+	[
+		"JJ Ying",
+		"老版 iOS Passbook App 的非常拟物的<a href='http://anyway.design/t/?t=http://v.youku.com/v_show/id_XMTQ5MjQ5MDg4OA==.html'>碎纸机删除动画</a>",
+		"13"
 	],
 	[
 		"Leon Gao",
 		"iOS 上的「<a href='http://anyway.design/t/?t=http://isux.tencent.com/pull-down-to-reflesh.html'>下拉刷新</a>」始作俑者是 Tweetie 之父 Loren Brichter",
-		"12",
-		"自己欠下的债，含着泪也要还完",
-		"http://anyway.fm/audience-feedback-2016-2/"
+		"12"
 	],
 	[
 		"JJ Ying",
 		"如果只推荐一个网站，那我肯定安利设计新闻聚合站 <a href='http://anyway.design/t/?t=https://www.designernews.co/'>Designer News</a>",
-		"11",
-		"快过年了，我们懒得想名字了可以伐？",
-		"http://anyway.fm/complain-in-chinese-year-end/"
+		"11"
+	],
+	[
+		"JJ Ying",
+		"设计师 Hindy 所写的 <a href='http://anyway.design/t/?t=https://zhuanlan.zhihu.com/p/20506092'>写给大家看的中文排版指南</a>",
+		"11"
 	],
 	[
 		"李一奇",
 		"摄影是一个不断发现惊喜的过程",
-		"10",
-		"180° —— 第一期就是一起来和一奇聊聊",
-		"http://anyway.fm/180-degree-kee-lee-from-smartisan/"
+		"10"
 	],
 	[
 		"李一奇",
 		"李永铨的分享《<a href='http://anyway.design/t/?t=http://v.youku.com/v_show/id_XOTMwMDg3OTA4.html'>设计.反省的工作</a>》有说到其实 70% 的人都没有找到适合自己的工作",
-		"10",
-		"180° —— 第一期就是一起来和一奇聊聊",
-		"http://anyway.fm/180-degree-kee-lee-from-smartisan/"
+		"10"
 	],
 	[
 		"李一奇",
-		"李一奇在极客公园的分享《<a href='http://anyway.design/t/?t=http://www.geekpark.net/videos/210789/'>图标的秘密</a>》",
-		"10",
-		"180° —— 第一期就是一起来和一奇聊聊",
-		"http://anyway.fm/180-degree-kee-lee-from-smartisan/"
+		"李一奇在极客公园的分享：<a href='http://anyway.design/t/?t=http://www.geekpark.net/videos/210789/'>图标的秘密</a>",
+		"10"
 	],
 	[
 		"李一奇",
 		"永远不要停下尝试的脚步",
-		"10",
-		"180° —— 第一期就是一起来和一奇聊聊",
-		"http://anyway.fm/180-degree-kee-lee-from-smartisan/"
+		"10"
 	],
 	[
 		"Leon Gao",
 		"千万别给「朋友」做生意",
-		"9",
-		"私•生活 —— 八小时外的工作",
-		"http://anyway.fm/freelancing-works/"
+		"9"
 	],
 	[
 		"Leon Gao",
 		"我有个非常简单的考验私单客户诚意的方法：报一个连自己都觉得离谱的价格",
-		"9",
-		"私•生活 —— 八小时外的工作",
-		"http://anyway.fm/freelancing-works/"
+		"9"
 	],
 	[
 		"JJ Ying",
 		"私活客户常用套路之一：「这次如果做得好，以后有很多项目给你，第一次你就少收一点吧！」",
-		"9",
-		"私•生活 —— 八小时外的工作",
-		"http://anyway.fm/freelancing-works/"
+		"9"
+	],
+	[
+		"JJ Ying",
+		"来自 Token 的一个知乎答案：<a href='http://anyway.design/t/?t=https://www.zhihu.com/question/22944989/answer/23166971'>独立设计师如何为自己定价？</a>",
+		"9"
 	],
 	[
 		"JJ Ying",
 		"比起发布初期设计师巨量涌入的 Path 2.X，我更喜欢他的 <a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/path-for-ipad/?s=plugin'>1.X 版本</a>，feed 阅读起来很有节奏感",
-		"8",
-		"设计真的驱得动吗？",
-		"http://anyway.fm/is-design-driven-a-myth/"
+		"8"
+	],
+	[
+		"JJ Ying",
+		"忘记了是来自于谁的一句吐槽了：「设计师就爱设计三种 App：天气、日历和 To-do List」",
+		"8"
+	],
+	[
+		"Leon Gao",
+		"iOS 7 刚刚发布的时候，<a href='http://anyway.design/t/?t=http://leongao.com/?p=282'>我曾经强烈吐槽过</a>",
+		"7"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.design/t/?t=http://pic.yupoo.com/yingjunjiu_v/Fb8BvfUL/e9Gbk.jpg'>Photoshop 图标的历代变化</a>",
+		"6"
 	],
 	[
 		"Leon Gao",
 		"Google Reader 挂了之后我一直在用 <a href='http://anyway.design/t/?t=https://feedly.com'>Feedly</a>，我订阅的 RSS 都<a href='http://anyway.design/t/?t=https://github.com/Anyway-Design/Leon-Gao-RSS'>在这里</a>",
-		"5",
-		"UI 设计师的养成（下）",
-		"http://anyway.fm/ui-designer-growth-3-habbits/"
+		"5"
+	],
+	[
+		"JJ Ying",
+		"如今的<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/photo-resources/'>免费图库资源</a>是越来越丰富了",
+		"5"
 	],
 	[
 		"JJ Ying",
 		"友台推荐：Type is Beautiful 网站出品的字体设计播客<a href='http://anyway.design/t/?t=http://www.typeisbeautiful.com/typechat/'>字谈字畅</a>",
-		"4",
-		"UI 设计师的养成（中）",
-		"http://anyway.fm/ui-designer-growth-2-jobs/"
+		"4"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/97-year-old-pixel-painter/'>97 岁的高龄 Pixel Painter</a>",
+		"3"
 	],
 	[
 		"Leon Gao",
 		"<a href='http://anyway.design/t/?t=http://dlanham.com/'>David Lanham</a> 是我的精神导师，还在念大学的时候第一次见到了他的作品，惊为天人！",
-		"2",
-		"当年的那些图标大师们",
-		"http://anyway.fm/famous-icon-designers/"
+		"2"
 	],
 	[
-		"Massimo Vignelli",
-		"风格来来回回一直在变，优秀的设计应该是一门语言，而不是一种风格",
-		"",
-		"",
-		""
+		"JJ Ying",
+		"GUI 行业的祖师奶奶：<a href='http://anyway.design/t/?t=http://www.kare.com/'>Susan Kare</a>",
+		"2"
 	],
 	[
-		"Matthew Carter ",
-		"优秀的字体是漂亮的「一组字母」，而不是一组「漂亮的字母」",
-		"",
-		"",
-		""
-	],
-	[
-		"Martin LeBlanc",
-		"用户界面就像笑话， 如果必须要解释别人才懂，那就悲剧了",
-		"",
-		"",
-		""
+		"Leon & JJ",
+		"<a href='http://anyway.design/t/?t=http://www.douban.com/photos/album/1618135740/'>我们在日本街头拍摄的照片相册</a>",
+		"1"
 	]
 ]
 }
