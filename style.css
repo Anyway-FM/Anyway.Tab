@@ -76,6 +76,27 @@ p a:hover{
 p a:hover:after{
 	height: 90%;
 }
+p em{
+	font-family: "Adobe Caslon Pro", "Times", "Times New Roman", Serif;
+	font-style: italic;
+}
+p code{
+	font-family: Monaco, Consolas, monospace;
+	font-weight: 300;
+}
+p strong{
+	display: inline-block;
+	position: relative;
+}
+p strong:after{
+	content: "．．．．．．．．．．．";
+	position: absolute;
+	bottom: -.3em;
+	left: .35em;
+	opacity: .9;
+	width: 100%;
+	overflow: hidden;
+}
 cite{
  	font-size: 22px;
  	font-style: normal;

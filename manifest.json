@@ -4,7 +4,7 @@
   "name": "Anyway.Tab",
   "short_name": "Anyway",
   "description": "把 Anyway.FM 节目中的参考链接推荐（和一些玩笑）显示在 Chrome 新建 Tab 上，同时推送新番的提醒",
-  "version": "0.1.6",
+  "version": "0.1.7",
 
   "author": "JJ Ying",
 

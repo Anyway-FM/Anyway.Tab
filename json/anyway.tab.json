@@ -202,7 +202,7 @@
 	],
 	[
 		"Leon Gao",
-		"假如你看到 <span style='color: #f0f;'>#FF00FF</span> 这个颜色觉得很亲切，说明你也老了……👻",
+		"假如你看到 <code><span style='color: #f0f;'>#FF00FF</span></code> 这个颜色觉得很亲切，说明你也老了……👻",
 		"44"
 	],
 	[
@@ -237,7 +237,7 @@
 	],
 	[
 		"Leon Gao",
-		"把「Design」翻译成「设 • 计」的人真是翻得太精准了！",
+		"把 <em>Design</em> 翻译成「设 • 计」的人真是翻得太精准了！",
 		"40"
 	],
 	[
@@ -247,7 +247,7 @@
 	],
 	[
 		"Leon Gao",
-		"没忍住，容我喷一下：Mac 版的 Office 套件就是辣鸡",
+		"没忍住，容我喷一下：macOS 版的 Office 套件就是<strong>辣鸡</strong>",
 		"39"
 	],
 	[
@@ -272,7 +272,7 @@
 	],
 	[
 		"JJ Ying",
-		"Myriad 字体的<a href='http://anyway.design/t/?t=https://www.fontshop.com/families/myriad'>小写字母 y</a> 的下沉部，就像是少女的大腿那么性感",
+		"<span  style='font-family:Myriad Pro, Sans-serif'>Myriad</span> 字体的<a href='http://anyway.design/t/?t=https://www.fontshop.com/families/myriad'>小写字母 <span  style='font-family:Myriad Pro, Sans-serif'>y</span></a> 的下沉部，就像是少女的大腿那么性感",
 		"35"
 	],
 	[
@@ -282,12 +282,12 @@
 	],
 	[
 		"JJ Ying",
-		"我台官网是用的 MediaTemple 的服务器",
+		"我台官网是用的 MediaTemple 的主机",
 		"34"
 	],
 	[
 		"Leon Gao",
-		"我的英文名出处是吕克·贝松的电影《这个杀手不太冷 Léon 》",
+		"我的英文名出处是吕克·贝松的电影《这个杀手不太冷 <em>Léon</em> 》",
 		"32"
 	],
 	[
@@ -297,12 +297,12 @@
 	],
 	[
 		"砂轮",
-		"切图是很重要的！",
+		"<strong>切图</strong>是很重要的！",
 		"31"
 	],
 	[
 		"Leon Gao",
-		"看看国外设计界的<a href='http://anyway.design/t/?t=http://www.kikk.be/2015/'>行业协会官网</a>，国内同行们还是有不少路要走的",
+		"看看国外设计界的<a href='http://anyway.design/t/?t=http://www.kikk.be/2015/'>行业大会官网</a>，国内同行们还是有不少路要走的",
 		"30"
 	],
 	[
@@ -317,12 +317,12 @@
 	],
 	[
 		"JJ Ying",
-		"2015 年的时候去硅谷各大 IT 公司走访了一次：<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/visiting-silicon-valley/'>游记在此</a>",
+		"2015 年的时候去硅谷部分 IT 公司走访了一圈：<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/visiting-silicon-valley/'>游记在此</a>",
 		"28"
 	],
 	[
 		"JJ Ying",
-		"没事儿的时候就喜欢膜拜一下这个百事可乐 08 年 Redsign 时的<a href='http://anyway.design/t/?t=https://pan.baidu.com/s/1slOY3A9'>PPT</a>，「详解」了「strategy」",
+		"没事儿的时候就喜欢膜拜一下这个百事可乐 08 年 Redsign 时的<a href='http://anyway.design/t/?t=https://pan.baidu.com/s/1slOY3A9'>PPT</a>，「详解」了 strategy",
 		"27"
 	],
 	[
@@ -332,7 +332,7 @@
 	],
 	[
 		"JJ Ying",
-		"Google 的设计师 Sebastien Gabriel 所写的这一次 Chrome 桌面版<a href='http://anyway.design/t/?t=http://anyway-web.b0.upaiyun.com/images/palm-pre-plus.jpg'>改版的全过程</a>",
+		"Google 的设计师 Sebastien Gabriel 所写的这一次 Chrome 桌面版<a href='http://anyway.design/t/?t=https://medium.com/google-design/redesigning-chrome-desktop-769aeb5ab987'>改版的全过程</a>",
 		"26"
 	],
 	[
@@ -342,12 +342,12 @@
 	],
 	[
 		"JJ Ying",
-		"常见欧洲字体<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/the-pronunciation-of-european-typefaces/?s=plugin'>在各自语言中的发音</a>",
+		"常见欧洲字体<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/the-pronunciation-of-european-typefaces/'>在各自语言中的发音</a>",
 		"25"
 	],
 	[
 		"JJ Ying",
-		"怀旧时间：eico 创始人 Rokey 在 2004 年 GUI 奥林匹克大赛中的获奖作品 <a href='http://anyway.design/t/?t=http://rokey.deviantart.com/art/the-last-order-candy-7954501'>The Last Order</a>",
+		"怀旧时间：EICO 创始人 Rokey 在 2004 年 GUI 奥林匹克大赛中的获奖作品 <a href='http://anyway.design/t/?t=http://rokey.deviantart.com/art/the-last-order-candy-7954501'>The Last Order</a>",
 		"25"
 	],
 	[
@@ -357,12 +357,12 @@
 	],
 	[
 		"JJ Ying",
-		"TIB 上关于 <a href='http://anyway.design/t/?t=http://www.typeisbeautiful.com/2014/08/8148/'>Avenir 的旧文</a>",
+		"TIB 上有一篇关于 <a href='http://anyway.design/t/?t=http://www.typeisbeautiful.com/2014/08/8148/' style='font-family:Avenir Next, Sans-serif'>Avenir</a> 字体的旧文",
 		"25"
 	],
 	[
 		"JJ Ying",
-		"旧书推荐：<a href='http://anyway.design/t/?t=http://iconhandbook.co.uk/'>The Icon Handbook</a>",
+		"旧书推荐：<a href='http://anyway.design/t/?t=http://iconhandbook.co.uk/'><em>The Icon Handbook</em></a>",
 		"25"
 	],
 	[
@@ -372,12 +372,12 @@
 	],
 	[
 		"JJ Ying",
-		"我很早以前这个个人页面大概被人当模板教材了，<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/about-page-copycats/'>复制者无数</a>……",
+		"我很早以前的个人页面大概被人当模板教材了，<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/about-page-copycats/'>被复制得没脾气了</a>……",
 		"24"
 	],
 	[
 		"JJ Ying",
-		"2016 年更新的<a href='http://anyway.design/t/?t=https://www.wearedesignstudio.com/works/premier-league-rebrand/'>英超 logo</a> 来自designstudio，Airbnb 的 logo 也是他们的作品",
+		"2016 年更新的<a href='http://anyway.design/t/?t=https://www.wearedesignstudio.com/works/premier-league-rebrand/'>英超 logo</a> 来自 designstudio，Airbnb 的 logo 也是他们的作品",
 		"23"
 	],
 	[
@@ -422,12 +422,12 @@
 	],
 	[
 		"JJ Ying",
-		"对于一个有强迫症的设计师来说，iPhone 6 Plus 那块<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/iphone-6-plus-screen-size/?s=plugin'>无法像素精确</a>的屏幕是让人信仰崩塌的",
+		"对于一个有强迫症的设计师来说，iPhone 6 Plus 那块<a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/iphone-6-plus-screen-size/'>无法像素精确</a>的屏幕是让人信仰崩塌的",
 		"18"
 	],
 	[
 		"JJ Ying",
-		"「Retina」的发音是 [ˈrɛtnə]，重音在前",
+		"Retina 的发音是 <span style='font-family: Times New Roman, Serif;'>/ˈrɛtnə/</span>，重音在前",
 		"18"
 	],
 	[
@@ -447,7 +447,7 @@
 	],
 	[
 		"JJ Ying",
-		"<a href='http://anyway.design/t/?t=https://baike.baidu.com/item/Alan%20Kay/9061036'>Alan Kay</a> 的名言有很多，简直就是电脑科学界的米兰昆德拉",
+		"<a href='http://anyway.design/t/?t=https://baike.baidu.com/item/Alan%20Kay/9061036'>Alan Kay</a> 的名言有很多，简直就是计算机科学界的米兰昆德拉",
 		"16"
 	],
 	[
@@ -457,12 +457,12 @@
 	],
 	[
 		"Leon Gao",
-		"高处不胜寒，意见领袖的经历和鸡汤未必适合每个人",
+		"高处不胜寒，意见领袖的经历和鸡汤<strong>未必</strong>适合每个人",
 		"15"
 	],
 	[
 		"滕磊",
-		"人生虽然充满了意外与巧合，但始终应该明白自己要的是什么",
+		"人生虽然充满了意外与巧合，但始终应该明白<strong>自己要的是什么</strong>",
 		"14"
 	],
 	[
@@ -472,7 +472,7 @@
 	],
 	[
 		"Leon Gao",
-		"UI 设计师就是上帝代理人！",
+		"UI 设计师就是<strong>上帝代理人</strong>！",
 		"13"
 	],
 	[
@@ -502,7 +502,7 @@
 	],
 	[
 		"JJ Ying",
-		"设计师 Hindy 所写的 <a href='http://anyway.design/t/?t=https://zhuanlan.zhihu.com/p/20506092'>写给大家看的中文排版指南</a>",
+		"设计师 Hindy 写过一篇<a href='http://anyway.design/t/?t=https://zhuanlan.zhihu.com/p/20506092'>写给大家看的中文排版指南</a>",
 		"11"
 	],
 	[
@@ -547,17 +547,22 @@
 	],
 	[
 		"JJ Ying",
-		"比起发布初期设计师巨量涌入的 Path 2.X，我更喜欢他的 <a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/path-for-ipad/?s=plugin'>1.X 版本</a>，feed 阅读起来很有节奏感",
+		"比起发布初期设计师巨量涌入的 Path 2.X，我更喜欢他的 <a href='http://anyway.design/t/?t=http://iconmoon.com/blog2/path-for-ipad/'>1.X 版本</a>，feed 阅读起来很有节奏感",
 		"8"
 	],
 	[
 		"JJ Ying",
-		"忘记了是来自于谁的一句吐槽了：「设计师就爱设计三种 App：天气、日历和 To-do List」",
+		"忘记是来自于谁的一句吐槽：</br>设计师就爱设计三种 App：天气、日历和 To-do List",
 		"8"
 	],
 	[
 		"Leon Gao",
-		"iOS 7 刚刚发布的时候，<a href='http://anyway.design/t/?t=http://leongao.com/?p=282'>我曾经强烈吐槽过</a>",
+		"iOS 7 刚刚发布的时候，我曾经强烈<a href='http://anyway.design/t/?t=http://leongao.com/?p=282'>吐槽过</a>",
+		"7"
+	],
+	[
+		"JJ Ying",
+		"Anyway 观影推荐之 <a href='http://anyway.design/t/?t=https://movie.douban.com/subject/6722879/'><em>Her</em></a>",
 		"7"
 	],
 	[
@@ -567,7 +572,7 @@
 	],
 	[
 		"Leon Gao",
-		"Google Reader 挂了之后我一直在用 <a href='http://anyway.design/t/?t=https://feedly.com'>Feedly</a>，我订阅的 RSS 都<a href='http://anyway.design/t/?t=https://github.com/Anyway-Design/Leon-Gao-RSS'>在这里</a>",
+		"Google Reader 挂了之后我一直在用 <a href='http://anyway.design/t/?t=https://feedly.com'>Feedly</a>，订阅的 RSS 都<a href='http://anyway.design/t/?t=https://github.com/Anyway-Design/Leon-Gao-RSS'>在这里</a>",
 		"5"
 	],
 	[
@@ -577,7 +582,7 @@
 	],
 	[
 		"JJ Ying",
-		"友台推荐：Type is Beautiful 网站出品的字体设计播客<a href='http://anyway.design/t/?t=http://www.typeisbeautiful.com/typechat/'>字谈字畅</a>",
+		"友台推荐：<span  style='font-family:Adobe Caslon Pro, Serif;font-weight: 700;'>Type is Beautiful</span> 网站出品的字体设计播客<a href='http://anyway.design/t/?t=http://www.typeisbeautiful.com/typechat/'>字谈字畅</a>",
 		"4"
 	],
 	[
