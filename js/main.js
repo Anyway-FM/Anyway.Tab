@@ -19,6 +19,7 @@ updateQuote = function(quote, author, episode, source, url) {
 	}
 }
 
+
 var localQuote = function() {
 	$.getJSON('./json/local.json', function(data) {
 		var x = Math.round(Math.random()*(data['quotes'].length-1))
@@ -34,14 +35,32 @@ var localQuote = function() {
 var liveCheck = function() {
 	$.getJSON(onlineQuoteUrl, function(data) {
 		successQuote = true
-		var x = Math.round(Math.random()*(data['quotes'].length-1))
-		var author = data['quotes'][x][0]
-		var quote = data['quotes'][x][1]
-		var episode = data['quotes'][x][2]
-		console.log(episode)
-		var source = data['episodes'][episode][0]
-		var url = data['episodes'][episode][1] + "#title"
-		updateQuote(quote, author, episode, source, url)
+		var now = new Date()
+		nowDays = countDays($.format.date( now, "yyyy"),$.format.date( now, "M"),$.format.date( now, "d"))
+		latestDays = countDays(data['settings']['latest'][1],data['settings']['latest'][2],data['settings']['latest'][3])
+		var daysBetween =  nowDays - latestDays
+		
+		if (
+			data['settings']['notifications'][0] 
+			&&
+			(nowDays - countDays(data['settings']['notifications'][1],data['settings']['notifications'][2],data['settings']['notifications'][3]) <= data['settings']['notifications'][4])
+			&&
+			Math.random() <= data['settings']['notifications'][5]
+		) {
+			$("p.quote").html(data['settings']['notifications'][0])
+			$("cite.meta").html("")
+		}
+		else {
+			var x = Math.round(Math.random()*(data['quotes'].length-1))
+			var author = data['quotes'][x][0]
+			var quote = data['quotes'][x][1]
+			var episode = data['quotes'][x][2]
+			console.log(episode)
+			var source = data['episodes'][episode][0]
+			var url = data['episodes'][episode][1] + "#title"
+			updateQuote(quote, author, episode, source, url)
+		}
+		
 		
 		$("footer").css('opacity','1')
 		var latestEpisode = data['settings']['latest'][0]
@@ -49,10 +68,7 @@ var liveCheck = function() {
 		$(".latest-episode").text(latestEpisode)
 		$(".latest-title").text(data['episodes'][latestEpisode][0])
 		
-		var now = new Date()
-		nowDays = countDays($.format.date( now, "yyyy"),$.format.date( now, "M"),$.format.date( now, "d"))
-		latestDays = countDays(data['settings']['latest'][1],data['settings']['latest'][2],data['settings']['latest'][3])
-		var daysBetween =  nowDays - latestDays
+		
 		if (daysBetween < 2) {
 			displayDays = "更了！更了！终于更了！"
 		}
