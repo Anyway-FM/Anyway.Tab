@@ -40,6 +40,7 @@ var liveCheck = function() {
 		latestDays = countDays(data['settings']['latest'][1],data['settings']['latest'][2],data['settings']['latest'][3])
 		var daysBetween =  nowDays - latestDays
 		
+		//~Get and update notifications
 		if (
 			data['settings']['notifications'][0] 
 			&&
@@ -47,9 +48,16 @@ var liveCheck = function() {
 			&&
 			Math.random() <= data['settings']['notifications'][5]
 		) {
-			$("p.quote").html(data['settings']['notifications'][0])
-			$("cite.meta").html("")
+			if (data['settings']['notifications'][6] == "fullscreen") {
+				$("body").addClass("notifications")
+				$("body").html(data['settings']['notifications'][0])
+			}
+			else {
+				$(".quote").html(data['settings']['notifications'][0])
+				$("cite.meta").html("")
+			}
 		}
+		
 		else {
 			var x = Math.round(Math.random()*(data['quotes'].length-1))
 			var author = data['quotes'][x][0]
@@ -68,7 +76,7 @@ var liveCheck = function() {
 		$(".latest-episode").text(latestEpisode)
 		$(".latest-title").text(data['episodes'][latestEpisode][0])
 		
-		
+		//~Process footer wording
 		if (daysBetween < 2) {
 			displayDays = "更了！更了！终于更了！"
 		}
@@ -85,19 +93,19 @@ var liveCheck = function() {
 			displayDays = "我也知道有快十天没更新了，求别催了！这上一期再随便听听吧！"
 		}
 		else if ( daysBetween < 12) {
-			displayDays = "再等等……再等等，应该快更了……"
+			displayDays = "再等等……再等等……应该快更了……"
 		}
 		else if ( daysBetween < 16) {
-			displayDays = "我知道你等不及了……这次他俩肯定又偷懒了"
+			displayDays = "我知道你等不及了……这次他俩肯定又偷懒了，唉……"
 		}
 		else if ( daysBetween < 21) {
 			displayDays = "这都快三个礼拜了，等不及了可以<a href='mailto:hello@anyway.fm'>发邮件</a>给他们问问看"
 		}
 		else if ( daysBetween < 60) {
-			displayDays = "距离上次更新整整 " + daysBetween + " 天了，JJ 和 Leon 难道已经挂了"
+			displayDays = "距离上次更新整整 " + daysBetween + " 天了，JJ 和 Leon 难道已经挂了……"
 		}
 		else {
-			displayDays = "如果你能看到这条……很有可能天网已经占领地球了……祝你好运吧"
+			displayDays = "如果你能看到这条……很有可能天网已经占领地球了……祝你好运吧……"
 		}
 		$(".days-between").html( displayDays )
 		if ( daysBetween < 4 ) {
