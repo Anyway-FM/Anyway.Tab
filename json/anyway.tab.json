@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"44",
+		"45",
 		"2017",
-		"7",
-		"20"
+		"8",
+		"3"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"45": [
+		"没有失落的秘符 · 第一集",
+		"http://anyway.fm/the-never-lost-symbol-1/"
+	],
 	"44": [
 		"各种图片佛麦塔们",
 		"http://anyway.fm/image-formats/"
@@ -203,6 +207,16 @@
 		"JJ Ying",
 		"对不起！我错了！",
 		"all"
+	],
+	[
+		"JJ Ying",
+		"很多看似简单事情并不是在一开始就那样：<a href='http://anyway.red/t/?t=https://readymag.com/shuffle/ui-symbols/'>几个常见 UI 符号的来源</a>",
+		"45"
+	],
+	[
+		"Leon Gao",
+		"完整的蓝牙图标应该包含外面那个类似椭圆的图形，详见他们非常细致的<a href='http://anyway.red/t/?t=https://www.bluetooth.com/zh-cn/develop-with-bluetooth/marketing-branding/brand-guide-logos'>品牌最佳范例和指南</a>",
+		"45"
 	],
 	[
 		"Leon Gao",
