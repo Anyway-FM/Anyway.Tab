@@ -197,6 +197,30 @@
 		"日本街头的图形标识",
 		"http://anyway.fm/japan-street-visual-elements/"
 	],
+	"P6":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
+	"P5":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
+	"P4":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
+	"P3":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
+	"P2":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
+	"P1":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
 	"all":[
 		"几乎每一期",
 		"http://anyway.fm/"
@@ -207,6 +231,41 @@
 		"JJ Ying",
 		"对不起！我错了！",
 		"all"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=http://animista.net/'>Animista</a> 是一个 CSS 动画生成 + 查看工具",
+		"P4"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://www.toptal.com/designers/subtlepatterns/'>Subtle Patterns</a> 上有超多细腻的背景材质，想要浮夸的拼花风格可以试试 <a href='http://anyway.red/t/?t=https://www.novapattern.com/'>Novapattern</a>",
+		"P4"
+	],
+	[
+		"JJ Ying",
+		"一款像素地图生成工具：<a href='http://anyway.red/t/?t=http://pixelmap.amcharts.com/'>Pixel Map</a>",
+		"P3"
+	],
+	[
+		"JJ Ying",
+		"Moodboard 生成工具 <a href='http://anyway.red/t/?t=https://niice.co/'>Niice</a>",
+		"P2"
+	],
+	[
+		"Leon Gao",
+		"<a href='http://anyway.red/t/?t=http://www.phew-hyuga.jp/'>日本日向市官方宣传网站</a>，很好玩~",
+		"P1"
+	],
+	[
+		"Leon Gao",
+		"很棒的与设计、艺术相关的各种广泛内容聚合展示：<a href='http://anyway.red/t/?t=http://theinspirationgrid.com/'>Inspiration Grid</a>",
+		"P1"
+	],
+	[
+		"JJ Ying",
+		"JJ 做了一个用数字综合评价 Dribbble 帐号的分数的应用：<a href='http://anyway.red/t/?t=http://anyway.design/analytttics/index-cn.php'>Analytttics</a>",
+		"P1"
 	],
 	[
 		"JJ Ying",
@@ -265,7 +324,7 @@
 	],
 	[
 		"Leon Gao",
-		"没忍住，容我喷一下：macOS 版的 Office 套件就是<strong>辣鸡</strong>",
+		"没忍住，容我喷一下：macOS 版的 Office 套件就是辣鸡",
 		"39"
 	],
 	[
@@ -315,7 +374,7 @@
 	],
 	[
 		"砂轮",
-		"<strong>切图</strong>是很重要的！",
+		"切图是很重要的！",
 		"31"
 	],
 	[
@@ -475,12 +534,12 @@
 	],
 	[
 		"Leon Gao",
-		"高处不胜寒，意见领袖的经历和鸡汤<strong>未必</strong>适合每个人",
+		"高处不胜寒，意见领袖的经历和鸡汤未必适合每个人",
 		"15"
 	],
 	[
 		"滕磊",
-		"人生虽然充满了意外与巧合，但始终应该明白<strong>自己要的是什么</strong>",
+		"人生虽然充满了意外与巧合，但始终应该明白自己要的是什么",
 		"14"
 	],
 	[
@@ -490,7 +549,7 @@
 	],
 	[
 		"Leon Gao",
-		"UI 设计师就是<strong>上帝代理人</strong>！",
+		"UI 设计师就是上帝代理人！",
 		"13"
 	],
 	[
