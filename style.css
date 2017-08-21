@@ -65,9 +65,25 @@ p a:after{
 	transition: all .15s cubic-bezier(.8, 0, .2, 1);
 	animation: underline-in .7s cubic-bezier(.9, 0, .1, 1)  0s 1;
 }
+p a:nth-child(2):after{
+	animation: underline-in-2 .7s cubic-bezier(.9, 0, .1, 1)  0s 1;
+}
+p a:nth-child(3):after{
+	animation: underline-in-3 .7s cubic-bezier(.9, 0, .1, 1)  0s 1;
+}
 @keyframes underline-in {
 	0%{width: 0;}
 	30%{width: 0;}
+	100%{width: 100%;}
+}
+@keyframes underline-in-2 {
+	0%{width: 0;}
+	62%{width: 0;}
+	100%{width: 100%;}
+}
+@keyframes underline-in-3 {
+	0%{width: 0;}
+	78%{width: 0;}
 	100%{width: 100%;}
 }
 p a:hover{
