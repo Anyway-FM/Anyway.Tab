@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"45",
+		"46",
 		"2017",
 		"8",
-		"3"
+		"18"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"46": [
+		"180° 第九期 • 在酷暑的北京，我们去 Dine 的杜先生家喝汽水",
+		"http://anyway.fm/180-degree-duxiao/"
+	],
 	"45": [
 		"没有失落的秘符 · 第一集",
 		"http://anyway.fm/the-never-lost-symbol-1/"
@@ -238,6 +242,11 @@
 	],
 	[
 		"JJ Ying",
+		"初代 <a href='http://anyway.red/t/?t=https://itunes.apple.com/cn/app/camera/id329670577?mt=8&at=1010lqta'>Camera+</a> 有个极度拟物化的<a href='http://anyway.red/t/?t=https://pic.yupoo.com/yingjunjiu_v/b85ba6bc/f84f4548.png'>主屏</a>，挺好玩但很快就被改掉了",
+		"46"
+	],
+	[
+		"JJ Ying",
 		"<a href='http://anyway.red/t/?t=http://xn--bq9h.tk/'>Emojify</a> 是一个用 Emoji 作为域名的服务，比如这个：<a href='http://anyway.red/t/?t=http://🤧.tk/2vv'><span style='font-weight: 100;'>http://🤧.tk/2vv</span></a>",
 		"P7"
 	],
@@ -318,7 +327,7 @@
 	],
 	[
 		"Leon Gao",
-		"完整的蓝牙图标应该包含外面那个类似椭圆的图形，详见他们非常细致的<a href='http://anyway.red/t/?t=https://www.bluetooth.com/zh-cn/develop-with-bluetooth/marketing-branding/brand-guide-logos'>品牌最佳范例和指南</a>",
+		"完整的蓝牙 logo 应该包含外面那个类似椭圆的图形，详见他们非常细致的<a href='http://anyway.red/t/?t=https://www.bluetooth.com/zh-cn/develop-with-bluetooth/marketing-branding/brand-guide-logos'>品牌最佳范例和指南</a>",
 		"45"
 	],
 	[
