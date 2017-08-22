@@ -2,7 +2,7 @@ var successQuote = false
 var onlineQuoteUrl = "./json/anyway.tab.json"
 
 var forceReload = Math.random()
-if (forceReload < 0.08) {
+if (forceReload < 0.06) {
 	$.ajaxSetup({
 	  cache:false
 	});
