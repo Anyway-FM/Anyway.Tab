@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"46",
+		"47",
 		"2017",
-		"8",
-		"18"
+		"9",
+		"1"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"47": [
+		"没面试过几十家公司怎么当得了我台主播",
+		"http://anyway.fm/interview-experience/"
+	],
 	"46": [
 		"180° 第九期 • 在酷暑的北京，我们去 Dine 的杜先生家喝汽水",
 		"http://anyway.fm/180-degree-duxiao/"
@@ -379,7 +383,7 @@
 	],
 	[
 		"JJ Ying",
-		"iOS 里那些音效是怎么演奏的？看看 Apple 的音效设计师在 WWDC 上的分享：<a href='http://anyway.red/t/?t=https://developer.apple.com/videos/play/wwdc2017/803/'>Designing Sounds</a>",
+		"iOS 里那些音效是怎么演奏的？看看 Apple 的音效设计师在 WWDC 上的分享：<a href='http://anyway.red/t/?t=https://developer.apple.com/videos/play/wwdc2017/803/'>Designing Sound</a>",
 		"43"
 	],
 	[
