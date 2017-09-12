@@ -1,22 +1,26 @@
 {
 "settings": {
 	"latest": [
-		"47",
+		"48",
 		"2017",
 		"9",
-		"1"
+		"12"
 	],
 	"notifications": [
-		"",
+		"我台今晚 (9/12) 12 点在陌陌直播苹果秋季发布会，陌陌号是 <a href='http://anyway.red/t/?t=http://weibo.com/5726846812/FlrB8xXzD'>8214769</a>！",
 		"2017",
-		"7",
-		"31",
-		"2",
-		"1.0",
-		"fullscreen"
+		"9",
+		"12",
+		"1",
+		"0.4",
+		""
 	]
 },
 "episodes": {
+	"48": [
+		"设计师的搞机编年史 · 第一辑",
+		"http://anyway.fm/digital-products/"
+	],
 	"47": [
 		"没面试过几十家公司怎么当得了我台主播",
 		"http://anyway.fm/interview-experience/"
@@ -258,6 +262,11 @@
 	],
 	[
 		"JJ Ying",
+		"Medium 总共有过三个版本的 <a href='http://anyway.red/t/?t=http://pic.yupoo.com/yingjunjiu_v/330ca6b1/6b72befc.png'> logo</a>，最新版的 wordmak 部分是基于 <a href='http://anyway.red/t/?t=https://www.schick-toikka.com/noe-display'>Noe Display</a> 字体的",
+		"47"
+	],
+	[
+		"JJ Ying",
 		"<a href='http://anyway.red/t/?t=https://www.illustrationui.com/'>Illustration UI</a> 是一个灵感收集类的网站，内容是在 UI 中出现的起传达、教育功能的插画",
 		"P9"
 	],
@@ -275,6 +284,16 @@
 		"JJ Ying",
 		"我去了趟<s>敌</s>友台：<a href='http://anyway.red/t/?t=http://music.163.com/#/program?id=907111380'>UX Coffee #30</a>",
 		"P8"
+	],
+	[
+		"杜潇",
+		"接受了 <a href='http://anyway.red/t/?t=https://www.goabstract.com/'>Abstract</a> 那种版本管理模式之后就再也回不去了",
+		"46"
+	],
+	[
+		"杜潇",
+		"远程协作不光是异地工作，合作成员之间的信任是最重要的",
+		"46"
 	],
 	[
 		"JJ Ying",
