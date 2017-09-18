@@ -257,13 +257,28 @@
 "quotes": [
 	[
 		"JJ Ying",
-		"对不起！我错了！",
-		"all"
+		"计算 WCAG 颜色对比度的工具：<a href='http://anyway.red/t/?t=https://usecontrast.com/'>Contrast.app</a>",
+		"P10"
+	],
+	[
+		"JJ Ying",
+		"能帮你省几个 GB 的 Sketch 历史文件<a href='http://anyway.red/t/?t=https://yo-op.github.io/sketchcachecleaner/'>清理工具</a>",
+		"P10"
+	],
+	[
+		"Leon Gao",
+		"Adobe  爸爸出了个超屌的<a href='http://anyway.red/t/?t=https://www.fastcodesign.com/90133924/adobe-just-built-the-prettiest-ui-ever'>调色盘</a>",
+		"P10"
 	],
 	[
 		"JJ Ying",
 		"Medium 总共有过三个版本的 <a href='http://anyway.red/t/?t=http://pic.yupoo.com/yingjunjiu_v/330ca6b1/6b72befc.png'> logo</a>，最新版的 wordmak 部分是基于 <a href='http://anyway.red/t/?t=https://www.schick-toikka.com/noe-display'>Noe Display</a> 字体的",
 		"47"
+	],
+	[
+		"JJ Ying",
+		"我台史上第四个赞助商：图片整理软件 <a href='http://anyway.red/t/?t=https://cn.eagle.cool/macOS'>Eagle</a>",
+		"P9"
 	],
 	[
 		"JJ Ying",
@@ -292,7 +307,7 @@
 	],
 	[
 		"杜潇",
-		"远程协作不光是异地工作，合作成员之间的信任是最重要的",
+		"远程协作不的表象是异地工作，但实际远不止于此，合作成员之间的信任是最重要的",
 		"46"
 	],
 	[
@@ -772,7 +787,7 @@
 	],
 	[
 		"JJ Ying",
-		"<a href='http://anyway.red/t/?t=http://iconmoon.com/blog2/97-year-old-pixel-painter/'>97 岁的高龄 Pixel Painter</a>",
+		"97 岁的高龄 <a href='http://anyway.red/t/?t=http://iconmoon.com/blog2/97-year-old-pixel-painter/'>Pixel Painter</a>",
 		"3"
 	],
 	[
@@ -789,6 +804,11 @@
 		"Leon & JJ",
 		"我们在日本街头拍摄的<a href='http://anyway.red/t/?t=http://www.douban.com/photos/album/1618135740/'>照片相册</a>",
 		"1"
+	],
+	[
+		"JJ Ying",
+		"对不起！我错了！",
+		"all"
 	]
 ]
 }
