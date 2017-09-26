@@ -209,6 +209,10 @@
 		"日本街头的图形标识",
 		"http://anyway.fm/japan-street-visual-elements/"
 	],
+	"P11":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
 	"P10":[
 		"安妮薇邮报",
 		"http://anyway.fm/post/"
@@ -257,6 +261,21 @@
 "quotes": [
 	[
 		"JJ Ying",
+		"",
+		"P11"
+	],
+	[
+		"JJ Ying",
+		"假如月亮在屏幕上的大小正好是 1 像素……<a href='http://anyway.red/t/?t=http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html'>太阳系的尺度模拟</a>",
+		"P11"
+	],
+	[
+		"JJ Ying",
+		"Fantasy 的完整团队介绍 <a href='http://anyway.red/t/?t=https://www.icloud.com/keynote/0d1jfWW8cOyvmsKhOMORpOgKQ#User_Experience_Design_at_Fantasy'>Keynote</a>",
+		"P11"
+	],
+	[
+		"JJ Ying",
 		"计算 WCAG 颜色对比度的工具：<a href='http://anyway.red/t/?t=https://usecontrast.com/'>Contrast.app</a>",
 		"P10"
 	],
@@ -287,7 +306,7 @@
 	],
 	[
 		"JJ Ying",
-		"justfont 出品的一段关于 Google 与 Adobe 合作的<a href='http://anyway.red/t/?t=http://armanddijcks.com/cinemagraphs-waves'>思源宋体</a>的介绍视频",
+		"justfont 出品的一段关于 Google 与 Adobe 合作的<a href='http://anyway.red/t/?t=https://www.youtube.com/watch?v=V4jKzjWg4KQ&t=3s'>思源宋体</a>的介绍视频",
 		"P8"
 	],
 	[
