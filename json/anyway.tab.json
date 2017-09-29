@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"48",
+		"49",
 		"2017",
 		"9",
-		"12"
+		"29"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"49": [
+		"设计是循规蹈矩还是打破规则？",
+		"http://anyway.fm/design-guidelines/"
+	],
 	"48": [
 		"设计师的搞机编年史 · 第一辑",
 		"http://anyway.fm/digital-products/"
