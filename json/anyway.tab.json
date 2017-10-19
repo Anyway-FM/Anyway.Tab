@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"49",
+		"50",
 		"2017",
-		"9",
-		"29"
+		"10",
+		"19"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"50": [
+		"工具应用和艺术性搭界又怎样！",
+		"http://anyway.fm/dropbox-rebranding-2017/"
+	],
 	"49": [
 		"设计是循规蹈矩还是打破规则？",
 		"http://anyway.fm/design-guidelines/"
@@ -263,6 +267,26 @@
 	]
 },
 "quotes": [
+	[
+		"Leon Gao",
+		"工具将人从繁琐的日常解放出来，给了你追求更美好事物的可能，而不该是大行其道的懒惰和倒退",
+		"50"
+	],
+	[
+		"JJ Ying",
+		"「野兽派」风格网页设计聚合：<a href='http://anyway.red/t/?t=http://brutalistwebsites.com/'>Brutalist Websites</a>",
+		"50"
+	],
+	[
+		"JJ Ying",
+		"GitHub 上有人收集整理的部分 <a href='http://anyway.red/t/?t=https://github.com/alexpate/awesome-design-systems'>Design System</a> 以及他们的比较",
+		"49"
+	],
+	[
+		"Leon Gao",
+		"虬江路就是「上海秋叶原」",
+		"48"
+	],
 	[
 		"JJ Ying",
 		"一秒钟的时间里，<a href='http://anyway.red/t/?t=http://www.everysecond.io/'>世界上发生了些什么</a>",
