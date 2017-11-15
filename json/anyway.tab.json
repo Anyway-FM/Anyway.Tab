@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"50",
+		"51",
 		"2017",
-		"10",
-		"19"
+		"11",
+		"15"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"51": [
+		"180° 第十期 • 与知乎牛看山一起玩耍的小姐姐们来了",
+		"http://anyway.fm/180-degree-zhihu-visual-design/"
+	],
 	"50": [
 		"工具应用和艺术性搭界又怎样！",
 		"http://anyway.fm/dropbox-rebranding-2017/"
