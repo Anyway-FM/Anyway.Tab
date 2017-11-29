@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"51",
+		"52",
 		"2017",
 		"11",
-		"15"
+		"29"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"52": [
+		"iPhone X、腾讯品牌字体、IBM Plex 和 PPT",
+		"http://anyway.fm/iphone-x-corporate-typeface-ppt/"
+	],
 	"51": [
 		"180° 第十期 • 与知乎牛看山一起玩耍的小姐姐们来了",
 		"http://anyway.fm/180-degree-zhihu-visual-design/"
@@ -221,6 +225,14 @@
 		"日本街头的图形标识",
 		"http://anyway.fm/japan-street-visual-elements/"
 	],
+	"P13":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
+	"P12":[
+		"安妮薇邮报",
+		"http://anyway.fm/post/"
+	],
 	"P11":[
 		"安妮薇邮报",
 		"http://anyway.fm/post/"
@@ -271,6 +283,36 @@
 	]
 },
 "quotes": [
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=http://productgraveyard.com/'>Product Graveyard</a> 是一个「死去产品」的坟场，罗列了众多已故的产品",
+		"P12"
+	],
+	[
+		"justfont",
+		"<a href='http://anyway.red/t/?t=http://blog.justfont.com/2017/07/opentype-wars/'>格式大戰</a>：你用的字型檔，是巨頭們大戰後的產物 via @justfont",
+		"P12"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://fontface.ninja/'>Fontface Ninja</a> 是一个 Chrome 插件，鉴别网页里用到的西文字体",
+		"P12"
+	],
+	[
+		"球拍",
+		"180° 嘉宾电影推荐：<a href='http://anyway.red/t/?t=https://movie.douban.com/subject/3212221/'>凯尔经的秘密</a>",
+		"51"
+	],
+	[
+		"球拍",
+		"Netflix 出品的设计纪录片<a href='http://anyway.red/t/?t=https://movie.douban.com/subject/26961333/'><em>Abstract: The Art of Design</em></a>",
+		"51"
+	],
+	[
+		"JJ Ying",
+		"在 IG 上用模型小人和日常物品拍摄创意微观场景的<a href='http://anyway.red/t/?t=https://www.instagram.com/tanaka_tatsuya/'>田中達也</a>",
+		"51"
+	],
 	[
 		"Leon Gao",
 		"工具将人从繁琐的日常解放出来，给了你追求更美好事物的可能，而不该是大行其道的懒惰和倒退",
