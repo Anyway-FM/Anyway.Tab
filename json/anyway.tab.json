@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"52",
+		"54",
 		"2017",
-		"11",
-		"29"
+		"12",
+		"28"
 	],
 	"notifications": [
 		"",
@@ -17,272 +17,300 @@
 	]
 },
 "episodes": {
+	"54": [
+		"UI の 上古卷轴",
+		"https://anyway.fm/ui-elder-scrolls/"
+	],
+	"53": [
+		"Amigo~ Let's Talk about Movie!",
+		"https://anyway.fm/movie-tim-burton/"
+	],
 	"52": [
 		"iPhone X、腾讯品牌字体、IBM Plex 和 PPT",
-		"http://anyway.fm/iphone-x-corporate-typeface-ppt/"
+		"https://anyway.fm/iphone-x-corporate-typeface-ppt/"
 	],
 	"51": [
 		"180° 第十期 • 与知乎牛看山一起玩耍的小姐姐们来了",
-		"http://anyway.fm/180-degree-zhihu-visual-design/"
+		"https://anyway.fm/180-degree-zhihu-visual-design/"
 	],
 	"50": [
 		"工具应用和艺术性搭界又怎样！",
-		"http://anyway.fm/dropbox-rebranding-2017/"
+		"https://anyway.fm/dropbox-rebranding-2017/"
 	],
 	"49": [
 		"设计是循规蹈矩还是打破规则？",
-		"http://anyway.fm/design-guidelines/"
+		"https://anyway.fm/design-guidelines/"
 	],
 	"48": [
 		"设计师的搞机编年史 · 第一辑",
-		"http://anyway.fm/digital-products/"
+		"https://anyway.fm/digital-products/"
 	],
 	"47": [
 		"没面试过几十家公司怎么当得了我台主播",
-		"http://anyway.fm/interview-experience/"
+		"https://anyway.fm/interview-experience/"
 	],
 	"46": [
 		"180° 第九期 • 在酷暑的北京，我们去 Dine 的杜先生家喝汽水",
-		"http://anyway.fm/180-degree-duxiao/"
+		"https://anyway.fm/180-degree-duxiao/"
 	],
 	"45": [
 		"没有失落的秘符 · 第一集",
-		"http://anyway.fm/the-never-lost-symbol-1/"
+		"https://anyway.fm/the-never-lost-symbol-1/"
 	],
 	"44": [
 		"各种图片佛麦塔们",
-		"http://anyway.fm/image-formats/"
+		"https://anyway.fm/image-formats/"
 	],
 	"43": [
 		"没声音，再好的戏也要打折扣",
-		"http://anyway.fm/designing-sound/"
+		"https://anyway.fm/designing-sound/"
 	],
 	"42": [
 		"设计行业里有「歧视」吗？",
-		"http://anyway.fm/discrimination-in-design/"
+		"https://anyway.fm/discrimination-in-design/"
 	],
 	"41": [
 		"别买「设计工具书」",
-		"http://anyway.fm/crappy-books/"
+		"https://anyway.fm/crappy-books/"
 	],
 	"40": [
 		"180° 第八期 • 他……又来了……",
-		"http://anyway.fm/180-degree-hxxland-2/"
+		"https://anyway.fm/180-degree-hxxland-2/"
 	],
 	"39": [
 		"设计师的调校",
-		"http://anyway.fm/fine-tuning-designer/"
+		"https://anyway.fm/fine-tuning-designer/"
 	],
 	"38": [
 		"八一八那些「妖孽」的术语",
-		"http://anyway.fm/ui-terms-1/"
+		"https://anyway.fm/ui-terms-1/"
 	],
 	"37": [
 		"180° 第七期 • 果断的访问步果断",
-		"http://anyway.fm/180-degree-kidaubis/"
+		"https://anyway.fm/180-degree-kidaubis/"
 	],
 	"36": [
 		"Anway.Review #3 － Bear & More",
-		"http://anyway.fm/anyway-review-3-bear/"
+		"https://anyway.fm/anyway-review-3-bear/"
 	],
 	"35": [
 		"Anyway.Type Part.I",
-		"http://anyway.fm/anyway-type-1/"
+		"https://anyway.fm/anyway-type-1/"
 	],
 	"34": [
 		"今时今日设计师还需要独立个人网站吗？",
-		"http://anyway.fm/personal-websites/"
+		"https://anyway.fm/personal-websites/"
 	],
 	"33": [
 		"Yo! Anyway :) 优设+安妮薇在咖啡馆的下午",
-		"http://anyway.fm/with-uisdc/"
+		"https://anyway.fm/with-uisdc/"
 	],
 	"32": [
 		"180° 第六期 • 狄更斯见到都不知怎么形容的雾霾天里，我们走访了绘麟社",
-		"http://anyway.fm/180-degree-idooky/"
+		"https://anyway.fm/180-degree-idooky/"
 	],
 	"31": [
 		"切图是很重要的！",
-		"http://anyway.fm/180-degree-sharoooon/"
+		"https://anyway.fm/180-degree-sharoooon/"
 	],
 	"30": [
 		"Anyway with U #1",
-		"http://anyway.fm/anyway-with-you-1/"
+		"https://anyway.fm/anyway-with-you-1/"
 	],
 	"29": [
 		"Anyway, 我们在 User Friendly 2016 现场",
-		"http://anyway.fm/user-friendly-2016/"
+		"https://anyway.fm/user-friendly-2016/"
 	],
 	"28": [
 		"故弄玄虚的设计师 Part. II",
-		"http://anyway.fm/mysteries-in-design-2/"
+		"https://anyway.fm/mysteries-in-design-2/"
 	],
 	"27": [
 		"故弄玄虚的设计师 Part. I",
-		"http://anyway.fm/mysteries-in-design/"
+		"https://anyway.fm/mysteries-in-design/"
 	],
 	"26": [
 		"Anyway.Review #2 － iOS 10 & iPhone 7 series",
-		"http://anyway.fm/anyway-review-2-ios-10-iphone-7/"
+		"https://anyway.fm/anyway-review-2-ios-10-iphone-7/"
 	],
 	"25": [
 		"Anyway Geographic II",
-		"http://anyway.fm/famous-ui-studios-2/"
+		"https://anyway.fm/famous-ui-studios-2/"
 	],
 	"24": [
 		"聊聊抄袭",
-		"http://anyway.fm/copy-steal/"
+		"https://anyway.fm/copy-steal/"
 	],
 	"23": [
 		"180° 第四期 • 狮城小王子",
-		"http://anyway.fm/180-degree-danis/"
+		"https://anyway.fm/180-degree-danis/"
 	],
 	"22": [
 		"Anyway.Review #1",
-		"http://anyway.fm/anyway-review-1/"
+		"https://anyway.fm/anyway-review-1/"
 	],
 	"21":[
 		"180° 第三期 • 小米生态链产品负责人：李创奇",
-		"http://anyway.fm/featuring-mouce-lee/"
+		"https://anyway.fm/featuring-mouce-lee/"
 	],
 	"20":[
 		"Anyway Geographic",
-		"http://anyway.fm/famous-ui-studios/"
+		"https://anyway.fm/famous-ui-studios/"
 	],
 	"19":[
 		"ICONの醍醐味",
-		"http://anyway.fm/on-icons/"
+		"https://anyway.fm/on-icons/"
 	],
 	"18":[
 		"[ˈrɛtnə]",
-		"http://anyway.fm/retina-display/"
+		"https://anyway.fm/retina-display/"
 	],
 	"17":[
 		"「教练，我想打篮球」",
-		"http://anyway.fm/dribbble-sins/"
+		"https://anyway.fm/dribbble-sins/"
 	],
 	"16":[
 		"向左走，向右走",
-		"http://anyway.fm/big-or-small/"
+		"https://anyway.fm/big-or-small/"
 	],
 	"15":[
 		"设计师怎样去寻找个人风格？",
-		"http://anyway.fm/finding-your-own-style-as-a-designer/"
+		"https://anyway.fm/finding-your-own-style-as-a-designer/"
 	],
 	"14":[
 		"180° 第二期 • 火山大陆滕磊先森的开车 / 船指南",
-		"http://anyway.fm/180-degree-hxxland/"
+		"https://anyway.fm/180-degree-hxxland/"
 	],
 	"13":[
 		"UI 是架通现实与虚拟的媒介",
-		"http://anyway.fm/physicality-and-realism/"
+		"https://anyway.fm/physicality-and-realism/"
 	],
 	"12":[
 		"自己欠下的债，含着泪也要还完",
-		"http://anyway.fm/audience-feedback-2016-2/"
+		"https://anyway.fm/audience-feedback-2016-2/"
 	],
 	"11":[
 		"快过年了，我们懒得想名字了可以伐？",
-		"http://anyway.fm/complain-in-chinese-year-end/"
+		"https://anyway.fm/complain-in-chinese-year-end/"
 	],
 	"10":[
 		"180° —— 第一期就是一起来和一奇聊聊",
-		"http://anyway.fm/180-degree-kee-lee-from-smartisan/"
+		"https://anyway.fm/180-degree-kee-lee-from-smartisan/"
 	],
 	"9":[
 		"私•生活 —— 八小时外的工作",
-		"http://anyway.fm/freelancing-works/"
+		"https://anyway.fm/freelancing-works/"
 	],
 	"8":[
 		"设计真的驱得动吗？",
-		"http://anyway.fm/is-design-driven-a-myth/"
+		"https://anyway.fm/is-design-driven-a-myth/"
 	],
 	"7":[
 		"《40 分钟》节目不深入了解苹果",
-		"http://anyway.fm/inside-apple/"
+		"https://anyway.fm/inside-apple/"
 	],
 	"6":[
 		"从 Photoshop CC 2015.1 聊起",
-		"http://anyway.fm/adobe-photoshop-cc-2015-1/#title"
+		"https://anyway.fm/adobe-photoshop-cc-2015-1/#title"
 	],
 	"5":[
 		"UI 设计师的养成（下）",
-		"http://anyway.fm/ui-designer-growth-3-habbits/"
+		"https://anyway.fm/ui-designer-growth-3-habbits/"
 	],
 	"4":[
 		"UI 设计师的养成（中）",
-		"http://anyway.fm/ui-designer-growth-2-jobs/"
+		"https://anyway.fm/ui-designer-growth-2-jobs/"
 	],
 	"3":[
 		"UI 设计师的养成（上）",
-		"http://anyway.fm/ui-designer-growth/"
+		"https://anyway.fm/ui-designer-growth/"
 	],
 	"2":[
 		"当年的那些图标大师们",
-		"http://anyway.fm/famous-icon-designers/"
+		"https://anyway.fm/famous-icon-designers/"
 	],
 	"1":[
 		"日本街头的图形标识",
-		"http://anyway.fm/japan-street-visual-elements/"
+		"https://anyway.fm/japan-street-visual-elements/"
 	],
 	"P13":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P12":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P11":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P10":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P9":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P8":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P7":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P6":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P5":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P4":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P3":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P2":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"P1":[
 		"安妮薇邮报",
-		"http://anyway.fm/post/"
+		"https://anyway.fm/post/"
 	],
 	"all":[
 		"几乎每一期",
-		"http://anyway.fm/"
+		"https://anyway.fm/"
 	]
 },
 "quotes": [
+	[
+		"Leon Gao",
+		"Anyway 观影推荐之 <a href='http://anyway.red/t/?t=https://movie.douban.com/subject/1306666/'>黑店狂想曲</a>",
+		"53"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://anyway-web.b0.upaiyun.com/images/poster-53.jpg'>本期封面</a>致(è)敬(gǎo)了一下蒂姆·伯顿的电影《<a href='http://anyway.red/t/?t=https://movie.douban.com/subject/1291545/'>大鱼</a>》",
+		"53"
+	],
+	[
+		"JJ Ying",
+		"iA Writer 利用 IBM Plex 做了一套很特别的的<a href='http://anyway.red/t/?t=https://ia.net/topics/in-search-of-the-perfect-writing-font/'>编辑器专用字体</a>",
+		"52"
+	],
+	[
+		"Leon Gao",
+		"腾讯让一家<a href='http://anyway.red/t/?t=http://www.monotype.com/resources/case-studies/tencent-expands-global-presence-with-a-new-brand-identity-and-typeface/'>专业字体公司</a>来操刀 logo 设计是一件很了不起的事情",
+		"52"
+	],
 	[
 		"JJ Ying",
 		"<a href='http://anyway.red/t/?t=http://productgraveyard.com/'>Product Graveyard</a> 是一个「死去产品」的坟场，罗列了众多已故的产品",
@@ -435,7 +463,7 @@
 	],
 	[
 		"Leon Gao",
-		"当时我开玩笑说的<a href='http://anyway.red/t/?t=http://anyway.fm/comments-grave/'>评论墓碑</a>真的被 JJ 搞出来了……",
+		"当时我开玩笑说的<a href='http://anyway.red/t/?t=https://anyway.fm/comments-grave/'>评论墓碑</a>真的被 JJ 搞出来了……",
 		"P6"
 	],
 	[
