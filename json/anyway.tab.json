@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"54",
-		"2017",
-		"12",
-		"28"
+		"55",
+		"2018",
+		"1",
+		"11"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"55": [
+		"看似分享 Figma 使用体验，其实还是在吐槽 Sketch",
+		"https://anyway.fm/figma-sketch/"
+	],
 	"54": [
 		"UI の 上古卷轴",
 		"https://anyway.fm/ui-elder-scrolls/"
@@ -291,6 +295,26 @@
 	]
 },
 "quotes": [
+	[
+		"JJ Ying",
+		"史上第一台具备图形用户界面的个人电脑是施乐的 <a href='http://anyway.red/t/?t=http://toastytech.com/guis/alto.html'>Alto</a>，你没看错，他的屏幕就是竖着的",
+		"54"
+	],
+	[
+		"JJ Ying",
+		"滚动条这个越来越隐形的东西<a href='http://anyway.red/t/?t=http://pic.yupoo.com/yingjunjiu_v/8084b434/acf0a061.png'>在以前</a>是非常重要的一个 UI 控件",
+		"54"
+	],
+	[
+		"Leon Gao",
+		"UI 设计师会不会有朝一日变成民间艺术家？",
+		"54"
+	],
+	[
+		"艾痴痴痴",
+		"我台官网加星数量最多的<a href='http://anyway.red/t/?t=https://anyway.fm/movie-tim-burton/#c3'>一条评论</a>",
+		"53"
+	],
 	[
 		"Leon Gao",
 		"Anyway 观影推荐之 <a href='http://anyway.red/t/?t=https://movie.douban.com/subject/1306666/'>黑店狂想曲</a>",
@@ -800,7 +824,7 @@
 		"JJ Ying",
 		"每当我失去激情的时候，就会去看看乔老爷子在 2007 年 Macworld 上的<a href='http://anyway.red/t/?t=http://v.youku.com/v_show/id_XMjgxMDE1MzY4.html?from=s1.8-1-1.2'>那场发布会</a>",
 		"13"
-	],	
+	],
 	[
 		"Leon Gao",
 		"「拟物化」的反义词应该是「抽象化」而不是「扁平化」",
