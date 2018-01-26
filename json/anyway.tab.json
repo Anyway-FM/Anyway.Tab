@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"55",
+		"56",
 		"2018",
 		"1",
-		"11"
+		"25"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"56": [
+		"设计师该如何搜索？",
+		"https://anyway.fm/how-to-search/"
+	],
 	"55": [
 		"看似分享 Figma 使用体验，其实还是在吐槽 Sketch",
 		"https://anyway.fm/figma-sketch/"
@@ -295,6 +299,31 @@
 	]
 },
 "quotes": [
+	[
+		"JJ Ying",
+		"这个把有用信息隐藏在 iPhone 的 Live Photo 壁纸里的<a href='http://anyway.red/t/?t=https://sspai.com/post/40762'>创意</a>还蛮有意思的",
+		"P13"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://historyoficons.com/'>History of Icons</a> 这个网站挖坟了 80 年代以来众多电脑界面中的图标设计",
+		"P13"
+	],
+	[
+		"JJ Ying",
+		"现阶段的 Sketch 就像当年的 FireFox，插件众多但竞争者正在快步追上",
+		"55"
+	],
+	[
+		"Leon Gao",
+		"作为一个设计了当世相当大比例产品 UX 的软件，Sketch 本身的 UX 其实有待提高",
+		"55"
+	],
+	[
+		"JJ Ying",
+		"Figma 的 CEO 是 <a href='http://anyway.red/t/?t=https://www.linkedin.com/in/dylanfield/'>Dylan Field</a>，算是个硅谷的「神童」",
+		"55"
+	],
 	[
 		"JJ Ying",
 		"史上第一台具备图形用户界面的个人电脑是施乐的 <a href='http://anyway.red/t/?t=http://toastytech.com/guis/alto.html'>Alto</a>，你没看错，他的屏幕就是竖着的",
