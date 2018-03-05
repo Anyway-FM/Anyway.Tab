@@ -1,22 +1,26 @@
 {
 "settings": {
 	"latest": [
-		"56",
+		"57",
 		"2018",
-		"1",
-		"25"
+		"2",
+		"14"
 	],
 	"notifications": [
-		"",
-		"2017",
-		"9",
-		"12",
-		"1",
+		"<a href='https://anyway.fm/2017/'>Anyway.2017</a> - 我台的年度总结终于来啦~",
+		"2018",
+		"2",
+		"14",
+		"5",
 		"0.4",
 		""
 	]
 },
 "episodes": {
+	"57": [
+		"春节前剪完已经不容易了，名字什么的就将就一下吧",
+		"https://anyway.fm/2018-spring-festival/"
+	],
 	"56": [
 		"设计师该如何搜索？",
 		"https://anyway.fm/how-to-search/"
