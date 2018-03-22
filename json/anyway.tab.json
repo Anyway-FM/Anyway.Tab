@@ -1,13 +1,13 @@
 {
 "settings": {
 	"latest": [
-		"57",
+		"59",
 		"2018",
-		"2",
-		"14"
+		"3",
+		"21"
 	],
 	"notifications": [
-		"<a href='https://anyway.fm/2017/'>Anyway.2017</a> - 我台的年度总结终于来啦~",
+		"",
 		"2018",
 		"2",
 		"14",
@@ -17,6 +17,14 @@
 	]
 },
 "episodes": {
+	"59": [
+		"一场关于「设计行业是不是吃青春饭」的辩论",
+		"https://anyway.fm/only-for-the-young/"
+	],
+	"58": [
+		"设计师需要做「职业规划」吗？",
+		"https://anyway.fm/career-planning/"
+	],
 	"57": [
 		"春节前剪完已经不容易了，名字什么的就将就一下吧",
 		"https://anyway.fm/2018-spring-festival/"
@@ -303,6 +311,21 @@
 	]
 },
 "quotes": [
+	[
+		"JJ Ying",
+		"看起来非常古老但对于搜索西文字体来说相当好用的网站 <a href='http://anyway.red/t/?t=http://identifont.com/'>Identifont.com</a>",
+		"56"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://www.zhihu.com/question/29796814'>CC0 许可协议</a>意味着你可以随意使用，包括个人和商业，以及任意修改随意重新发布，甚至也不用署名",
+		"56"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://itunes.apple.com/cn/app/akinator/id933135994?mt=8&at=1010lqta'>Akinator</a> 是一个很有意思的「20 问猜人」游戏",
+		"56"
+	],
 	[
 		"JJ Ying",
 		"这个把有用信息隐藏在 iPhone 的 Live Photo 壁纸里的<a href='http://anyway.red/t/?t=https://sspai.com/post/40762'>创意</a>还蛮有意思的",
