@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"59",
+		"60",
 		"2018",
 		"3",
-		"21"
+		"29"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"60": [
+		"180° 愚人节特别节目 • 神秘嘉宾",
+		"https://anyway.fm/2018-april-fool/"
+	],
 	"59": [
 		"一场关于「设计行业是不是吃青春饭」的辩论",
 		"https://anyway.fm/only-for-the-young/"
