@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"60",
+		"61",
 		"2018",
-		"3",
-		"29"
+		"4",
+		"4"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"61": [
+		"180° 第十二期 • 出国留学了解下？",
+		"https://anyway.fm/180-degree-nan/"
+	],
 	"60": [
 		"180° 愚人节特别节目 • 神秘嘉宾",
 		"https://anyway.fm/2018-april-fool/"
