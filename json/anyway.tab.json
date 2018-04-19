@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"61",
+		"62",
 		"2018",
 		"4",
-		"4"
+		"19"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"62": [
+		"别再错！这些单词应该这样念！",
+		"https://anyway.fm/terms-in-english/"
+	],
 	"61": [
 		"180° 第十二期 • 出国留学了解下？",
 		"https://anyway.fm/180-degree-nan/"
@@ -319,6 +323,16 @@
 	]
 },
 "quotes": [
+	[
+		"JJ Ying",
+		"我台前两年的年度总结：<a href='http://anyway.red/t/?t=https://anyway.fm/2017'>Anyway.2017</a>、<a href='http://anyway.red/t/?t=https://anyway.fm/2016'>Anyway.2016</a>",
+		"57"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=http://www.coverr.co/'>Coverr.co</a> 可以说是视频背景界的 Unsplash 了",
+		"57"
+	],
 	[
 		"JJ Ying",
 		"看起来非常古老但对于搜索西文字体来说相当好用的网站 <a href='http://anyway.red/t/?t=http://identifont.com/'>Identifont.com</a>",
