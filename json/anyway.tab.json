@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"62",
+		"63",
 		"2018",
-		"4",
-		"19"
+		"5",
+		"3"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"63": [
+		"180° 第十三期 • Voicer 联合创始人",
+		"https://anyway.fm/voicer-more/"
+	],
 	"62": [
 		"别再错！这些单词应该这样念！",
 		"https://anyway.fm/terms-in-english/"
