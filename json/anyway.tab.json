@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"63",
+		"64",
 		"2018",
 		"5",
-		"3"
+		"18"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"64": [
+		"180° 第十四期 • 轻芒 CEO 王俊煜",
+		"https://anyway.fm/180-degree-junyu/"
+	],
 	"63": [
 		"180° 第十三期 • Voicer 联合创始人",
 		"https://anyway.fm/voicer-more/"
@@ -749,7 +753,7 @@
 	],
 	[
 		"JJ Ying",
-		"没事儿的时候就喜欢膜拜一下这个百事可乐 08 年 Redsign 时的<a href='http://anyway.red/t/?t=https://pan.baidu.com/s/1slOY3A9'>PPT</a>，「详解」了 strategy",
+		"没事儿的时候就喜欢膜拜一下这个百事可乐 08 年 Redesign 时的<a href='http://anyway.red/t/?t=https://pan.baidu.com/s/1slOY3A9'>PPT</a>，「详解」了 strategy",
 		"27"
 	],
 	[
