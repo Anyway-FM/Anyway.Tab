@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"64",
+		"65",
 		"2018",
 		"5",
-		"18"
+		"30"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"65": [
+		"从「过度设计」到「设计师自嗨」",
+		"https://anyway.fm/over-design/"
+	],
 	"64": [
 		"180° 第十四期 • 轻芒 CEO 王俊煜",
 		"https://anyway.fm/180-degree-junyu/"
@@ -331,6 +335,21 @@
 	]
 },
 "quotes": [
+	[
+		"王俊煜",
+		"《<a href='http://anyway.red/t/?t=https://theinitium.com/article/201701122-mainland-schoolmagazine/'>附中人 Further</a>》是北师大附中的校刊，质量和商业化程度高得根本不像校刊",
+		"64"
+	],
+	[
+		"王俊煜",
+		"互联网产品才是真正的「奢侈品」",
+		"64"
+	],
+	[
+		"More",
+		"打开 Illustrator 的时候我有一种莫名的安全感",
+		"63"
+	],
 	[
 		"JJ Ying",
 		"我台前两年的年度总结：<a href='http://anyway.red/t/?t=https://anyway.fm/2017'>Anyway.2017</a>、<a href='http://anyway.red/t/?t=https://anyway.fm/2016'>Anyway.2016</a>",
