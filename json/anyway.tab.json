@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"65",
+		"66",
 		"2018",
-		"5",
-		"30"
+		"6",
+		"11"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"66": [
+		"聊聊 WWDC 2018",
+		"https://anyway.fm/apple-wwdc-2018/"
+	],
 	"65": [
 		"从「过度设计」到「设计师自嗨」",
 		"https://anyway.fm/over-design/"
