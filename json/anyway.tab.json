@@ -281,6 +281,22 @@
 		"日本街头的图形标识",
 		"https://anyway.fm/japan-street-visual-elements/"
 	],
+	"P22":[
+		"安妮薇邮报",
+		"https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2322.md"
+	],
+	"P18":[
+		"安妮薇邮报",
+		"https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2318.md"
+	],
+	"P16":[
+		"安妮薇邮报",
+		"https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2316.md"
+	],
+	"P15":[
+		"安妮薇邮报",
+		"https://github.com/Anyway-Design/Anyway.Post/blob/master/Posts/Markdown/%2315.md"
+	],
 	"P13":[
 		"安妮薇邮报",
 		"https://anyway.fm/post/"
@@ -340,6 +356,26 @@
 },
 "quotes": [
 	[
+		"JJ Ying",
+		"让我们认识「<a href='http://anyway.red/t/?t=https://pudding.cool/2018/02/waveforms/'>声音的波形图</a>」",
+		"P22"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://www.logodesignlove.com/pixar-logo'>皮克斯小台灯 logo 的历史</a>",
+		"P18"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://medium.com/black-lion-banner/the-history-of-the-ampersand-c81839171940'>“<span style='font-family: serif;'>&</span>” 符号的历史</a>",
+		"P16"
+	],
+	[
+		"JJ Ying",
+		"很有意思的一个研究：<a href='http://anyway.red/t/?t=https://www.signs.com/branded-in-memory/'>让人凭印象画著名品牌 logo</a>",
+		"P15"
+	],
+	[
 		"王俊煜",
 		"《<a href='http://anyway.red/t/?t=https://theinitium.com/article/201701122-mainland-schoolmagazine/'>附中人 Further</a>》是北师大附中的校刊，质量和商业化程度高得根本不像校刊",
 		"64"
@@ -353,6 +389,16 @@
 		"More",
 		"打开 Illustrator 的时候我有一种莫名的安全感",
 		"63"
+	],
+	[
+		"JJ Ying",
+		"我台出品的 UI 设计行业专用术语的中英对照：<a href='http://anyway.red/t/?t=http://abc.anyway.fm'>Anyway.ABC</a>",
+		"62"
+	],
+	[
+		"JJ Ying",
+		"我台 2016 年度听众调查里的<a href='http://anyway.red/t/?t=http://pic.yupoo.com/yingjunjiu_v/a2bcb84e/af97b77e.jpg'>从业年限分布图</a>",
+		"59"
 	],
 	[
 		"JJ Ying",
@@ -376,7 +422,7 @@
 	],
 	[
 		"JJ Ying",
-		"<a href='http://anyway.red/t/?t=https://itunes.apple.com/cn/app/akinator/id933135994?mt=8&at=1010lqta'>Akinator</a> 是一个很有意思的「20 问猜人」游戏",
+		"<a href='http://anyway.red/t/?t=https://itunes.apple.com/cn/app/akinator/id933135994?mt=8&at=1010lqta'>Akinator</a> 是一个很有意思的「20 问猜名人」游戏",
 		"56"
 	],
 	[
