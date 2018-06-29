@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"66",
+		"67",
 		"2018",
 		"6",
-		"11"
+		"29"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"67": [
+		"没有失落的秘符 · 动物世界",
+		"https://anyway.fm/animals-in-design/"
+	],
 	"66": [
 		"聊聊 WWDC 2018",
 		"https://anyway.fm/apple-wwdc-2018/"
