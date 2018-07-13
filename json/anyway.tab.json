@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"67",
+		"68",
 		"2018",
-		"6",
-		"29"
+		"7",
+		"12"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"68": [
+		"从赛博朋克到江户风情",
+		"https://anyway.fm/travel-cyberpunk-japan/"
+	],
 	"67": [
 		"没有失落的秘符 · 动物世界",
 		"https://anyway.fm/animals-in-design/"
