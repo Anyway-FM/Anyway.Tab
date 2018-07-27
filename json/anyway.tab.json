@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"68",
+		"69",
 		"2018",
 		"7",
-		"12"
+		"26"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"69": [
+		"两个懒癌中晚期患者的拖延症互助会",
+		"https://anyway.fm/procrastinator-anonymous/"
+	],
 	"68": [
 		"从赛博朋克到江户风情",
 		"https://anyway.fm/travel-cyberpunk-japan/"
@@ -490,7 +494,7 @@
 	],
 	[
 		"JJ Ying",
-		"iA Writer 利用 IBM Plex 做了一套很特别的的<a href='http://anyway.red/t/?t=https://ia.net/topics/in-search-of-the-perfect-writing-font/'>编辑器专用字体</a>",
+		"iA Writer 利用 IBM Plex 做了一套很特别的<a href='http://anyway.red/t/?t=https://ia.net/topics/in-search-of-the-perfect-writing-font/'>编辑器专用字体</a>",
 		"52"
 	],
 	[
