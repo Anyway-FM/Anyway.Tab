@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"69",
+		"71",
 		"2018",
-		"7",
-		"26"
+		"8",
+		"15"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,14 @@
 	]
 },
 "episodes": {
+	"71": [
+		"学好数理化，做遍设计都不怕",
+		"https://anyway.fm/science-in-ui-design/"
+	],
+	"70": [
+		"番外篇 ·「旁友，Framer X 要试试看伐？」",
+		"https://anyway.fm/framer-x-beta/"
+	],
 	"69": [
 		"两个懒癌中晚期患者的拖延症互助会",
 		"https://anyway.fm/procrastinator-anonymous/"
