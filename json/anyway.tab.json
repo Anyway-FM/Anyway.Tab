@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"71",
+		"72",
 		"2018",
 		"8",
-		"15"
+		"30"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"72": [
+		"如果有他们一半的执着，就不会只在这里跟你聊观后感了",
+		"https://anyway.fm/indie-games-in-china/"
+	],
 	"71": [
 		"学好数理化，做遍设计都不怕",
 		"https://anyway.fm/science-in-ui-design/"
@@ -375,6 +379,16 @@
 	]
 },
 "quotes": [
+	[
+		"JJ Ying",
+		"很多时候看似是「过度设计」，其实只是「设计不足」",
+		"65"
+	],
+	[
+		"JJ Ying",
+		"我们对于「过度设计」的反感，是不是也来源于「恐怖谷」理论？",
+		"65"
+	],
 	[
 		"JJ Ying",
 		"让我们认识「<a href='http://anyway.red/t/?t=https://pudding.cool/2018/02/waveforms/'>声音的波形图</a>」",
