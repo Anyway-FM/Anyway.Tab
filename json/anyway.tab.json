@@ -1,13 +1,13 @@
 {
 "settings": {
 	"latest": [
-		"72",
+		"73",
 		"2018",
-		"8",
-		"30"
+		"9",
+		"13"
 	],
 	"notifications": [
-		"2018 年度线下聚会「<a href='http://anyway.red/t/?t=https://anyway.fm/party/'>夏末坦荡大会</a>」开始售票啦~",
+		"",
 		"2018",
 		"9",
 		"4",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"73": [
+		"有没有搞错？这些缩写原来是这个意思！",
+		"https://anyway.fm/acronym/"
+	],
 	"72": [
 		"如果有他们一半的执着，就不会只在这里跟你聊观后感了",
 		"https://anyway.fm/indie-games-in-china/"
