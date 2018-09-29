@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"73",
+		"74",
 		"2018",
 		"9",
-		"13"
+		"28"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"74": [
+		"起个名字怎么那么难！",
+		"https://anyway.fm/product-names/"
+	],
 	"73": [
 		"有没有搞错？这些缩写原来是这个意思！",
 		"https://anyway.fm/acronym/"
