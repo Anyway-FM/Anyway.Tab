@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"74",
+		"76",
 		"2018",
-		"9",
-		"28"
+		"11",
+		"2"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,14 @@
 	]
 },
 "episodes": {
+	"76": [
+		"180° 第十五期 • 与 Yuki Gu 的谈话内容记录",
+		"https://anyway.fm/180-degree-yuki/"
+	],
+	"75": [
+		"在谈到设计细节的时候我们到底在说啥",
+		"https://anyway.fm/design-details/"
+	],
 	"74": [
 		"起个名字怎么那么难！",
 		"https://anyway.fm/product-names/"
