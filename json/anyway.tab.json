@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"76",
+		"77",
 		"2018",
 		"11",
-		"2"
+		"16"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"77": [
+		"Palm 的故事（上）",
+		"https://anyway.fm/palm-part-1/"
+	],
 	"76": [
 		"180° 第十五期 • 与 Yuki Gu 的谈话内容记录",
 		"https://anyway.fm/180-degree-yuki/"
@@ -395,6 +399,11 @@
 	]
 },
 "quotes": [
+	[
+		"JJ Ying",
+		"请跟我念：ease-in 嗯~嗯嗯 / ease-out 嗯嗯嗯~ / ease-in-out 嗯~嗯嗯~",
+		"71"
+	],
 	[
 		"JJ Ying",
 		"很多时候看似是「过度设计」，其实只是「设计不足」",
