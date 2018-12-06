@@ -1,22 +1,26 @@
 {
 "settings": {
 	"latest": [
-		"77",
+		"78",
 		"2018",
-		"11",
-		"16"
+		"12",
+		"3"
 	],
 	"notifications": [
-		"",
+		"Anyway.FM 北京线下活动<a href='http://anyway.red/t/?t=https://anyway.fm/winter-party/'>初冬抱团大会</a>报名开始~",
 		"2018",
-		"9",
-		"4",
+		"12",
 		"3",
-		"0.4",
+		"10",
+		"0.25",
 		""
 	]
 },
 "episodes": {
+	"78": [
+		"Anyway 专家门诊 · 松鼠症",
+		"https://anyway.fm/compulsive-hoarding/"
+	],
 	"77": [
 		"Palm 的故事（上）",
 		"https://anyway.fm/palm-part-1/"
