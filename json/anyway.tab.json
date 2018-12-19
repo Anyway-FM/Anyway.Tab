@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"78",
+		"79",
 		"2018",
 		"12",
-		"3"
+		"19"
 	],
 	"notifications": [
 		"Anyway.FM 北京线下活动<a href='http://anyway.red/t/?t=https://anyway.fm/winter-party/'>初冬抱团大会</a>报名开始~",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"79": [
+		"什么值得（两个宅男）买",
+		"https://anyway.fm/smzdm/"
+	],
 	"78": [
 		"Anyway 专家门诊 · 松鼠症",
 		"https://anyway.fm/compulsive-hoarding/"
