@@ -1,22 +1,42 @@
 {
 "settings": {
 	"latest": [
-		"79",
-		"2018",
-		"12",
-		"19"
+		"84",
+		"2019",
+		"3",
+		"14"
 	],
 	"notifications": [
-		"Anyway.FM 北京线下活动<a href='http://anyway.red/t/?t=https://anyway.fm/winter-party/'>初冬抱团大会</a>报名开始~",
-		"2018",
-		"12",
-		"3",
+		"",
+		"2019",
+		"2",
+		"1",
 		"10",
-		"0.25",
+		"0.2",
 		""
 	]
 },
 "episodes": {
+	"84": [
+		"今天你折叠了吗？",
+		"https://anyway.fm/foldable-phones/"
+	],
+	"83": [
+		"设计师就是迷信！",
+		"https://anyway.fm/designer-superstition/"
+	],
+	"82": [
+		"第三区交通委提醒您「开酒不喝车，但可以听 Anyway」",
+		"https://anyway.fm/wandering-earth/"
+	],
+	"81": [
+		"不想成为迪特·拉姆斯的主播做不了好设计师",
+		"https://anyway.fm/rams/"
+	],
+	"80": [
+		"180° 第十六期 • 自由全栈设计师丁一",
+		"https://anyway.fm/dingyi/"
+	],
 	"79": [
 		"什么值得（两个宅男）买",
 		"https://anyway.fm/smzdm/"
@@ -408,6 +428,31 @@
 },
 "quotes": [
 	[
+		"JJ Ying",
+		"Anyway 观影推荐之《<a href='http://anyway.red/t/?t=https://movie.douban.com/subject/27615441/'>网络谜踪</a>》",
+		"82"
+	],
+	[
+		"Leon Gao",
+		"Anyway 观影推荐之《<a href='http://anyway.red/t/?t=https://movie.douban.com/subject/1414803/'>守夜人</a>》",
+		"82"
+	],
+	[
+		"Leon Gao",
+		"想象一下，如果把《流浪地球》里的吴京换成李雪健……",
+		"82"
+	],
+	[
+		"JJ Ying",
+		"在《Rams》跳票的 2 年多里，漫威电影宇宙上映了 7 部新片、卖出 64 亿 4 千万美元的票房、写死了 25 个主要角色",
+		"81"
+	],
+	[
+		"Leon Gao",
+		"<a href='http://anyway.red/t/?t=https://pudding.cool/2018/02/waveforms/'>粉丝拯救了宝利来的故事</a>",
+		"76"
+	],
+	[
 		"Yuki Gu",
 		"五十年后，Figma 和 Sketch 可能就是 Nike 和 Adidas 的区别",
 		"76"
@@ -419,8 +464,38 @@
 	],
 	[
 		"JJ Ying",
+		"已经停更但很有意思的网站：<a href='http://anyway.red/t/?t=https://pudding.cool/2018/02/waveforms/'>Little Big Details</a>，专门收集产品里的设计小细节",
+		"75"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://timesnewerroman.com/'>Times Newer Roman</a> 这款中二字体跟 Times New Roman 非常像但更宽松，帮你在论文里多凑一些页数",
+		"74"
+	],
+	[
+		"JJ Ying",
+		"<a href='http://anyway.red/t/?t=https://timesnewerroman.com/'>「职业规划」和「Job Title」那些事</a>",
+		"73"
+	],
+	[
+		"JJ Ying",
 		"请跟我念：ease-in 嗯~嗯嗯 / ease-out 嗯嗯嗯~ / ease-in-out 嗯~嗯嗯~",
 		"71"
+	],
+	[
+		"JJ Ying",
+		"21 年前的那段广告 <a href='http://anyway.red/t/?t=https://www.bilibili.com/video/av9767735'>Crazy Ones</a> 以及<a href='http://anyway.red/t/?t=http://www.thecrazyones.it/spot-en.html'>乔布斯的配音版本</a>",
+		"69"
+	],
+	[
+		"Leon Gao",
+		"压缩软件 Keka 的<a href='http://anyway.red/t/?t=http://pic.yupoo.com/yingjunjiu_v/1cdf528e/9c0d9d71.jpg'>西瓜虫图标</a>更新版由 David Lanham 操刀",
+		"67"
+	],
+	[
+		"Leon Gao",
+		"David Lanham 作品三连发：On The Job <a href='http://anyway.red/t/?t=http://dlanham.com/ui/onthejob/'>小蜜蜂图标</a>、Acorn <a href='http://anyway.red/t/?t=http://dlanham.com/ui/acorn/'>橡子图标</a>和 Coda <a href='http://anyway.red/t/?t=http://dlanham.com/ui/coda/'>小叶子图标</a>",
+		"67"
 	],
 	[
 		"JJ Ying",
@@ -848,18 +923,8 @@
 		"35"
 	],
 	[
-		"JJ Ying",
-		"我台官网是用的 MediaTemple 的主机",
-		"34"
-	],
-	[
 		"Leon Gao",
 		"我的英文名出处是吕克·贝松的电影《这个杀手不太冷 <em>Léon</em> 》",
-		"32"
-	],
-	[
-		"相辉",
-		"我们要少一点套路，多一点真诚",
 		"32"
 	],
 	[
@@ -958,11 +1023,6 @@
 		"22"
 	],
 	[
-		"李创奇",
-		"产品经理最基本的素质是做的东西起码自己喜欢用",
-		"21"
-	],
-	[
 		"JJ Ying",
 		"Sketch 的开发商 Bohemian 在定价策略和对待老用户的态度上有很多<a href='http://anyway.red/t/?t=https://www.zhihu.com/question/23239204/answer/24569690'>黑历史</a>",
 		"20"
@@ -1008,11 +1068,6 @@
 		"17"
 	],
 	[
-		"Leon Gao",
-		"面对物质要求，坦率一点更好",
-		"16"
-	],
-	[
 		"JJ Ying",
 		"<a href='http://anyway.red/t/?t=https://baike.baidu.com/item/Alan%20Kay/9061036'>Alan Kay</a> 的名言有很多，简直就是计算机科学界的米兰昆德拉",
 		"16"
@@ -1025,11 +1080,6 @@
 	[
 		"滕磊",
 		"人生虽然充满了意外与巧合，但始终应该明白自己要的是什么",
-		"14"
-	],
-	[
-		"滕磊",
-		"面对挫折，别急着失落",
 		"14"
 	],
 	[
@@ -1069,11 +1119,6 @@
 	],
 	[
 		"李一奇",
-		"摄影是一个不断发现惊喜的过程",
-		"10"
-	],
-	[
-		"李一奇",
 		"李永铨的分享《<a href='http://anyway.red/t/?t=http://v.youku.com/v_show/id_XOTMwMDg3OTA4.html'>设计.反省的工作</a>》有说到其实 70% 的人都没有找到适合自己的工作",
 		"10"
 	],
@@ -1086,11 +1131,6 @@
 		"李一奇",
 		"永远不要停下尝试的脚步",
 		"10"
-	],
-	[
-		"Leon Gao",
-		"千万别给「朋友」做生意",
-		"9"
 	],
 	[
 		"Leon Gao",
