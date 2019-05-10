@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"84",
+		"86",
 		"2019",
-		"3",
-		"14"
+		"5",
+		"8"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,14 @@
 	]
 },
 "episodes": {
+	"86": [
+		"可爱又可靠 · 在巨鹿路开纹身工作室的 ASH",
+		"https://anyway.fm/ash/"
+	],
+	"85": [
+		"Anyway 专家门诊 • 强迫症",
+		"https://anyway.fm/ocd/"
+	],
 	"84": [
 		"今天你折叠了吗？",
 		"https://anyway.fm/foldable-phones/"
@@ -449,7 +457,7 @@
 	],
 	[
 		"Leon Gao",
-		"<a href='http://anyway.red/t/?t=https://pudding.cool/2018/02/waveforms/'>粉丝拯救了宝利来的故事</a>",
+		"<a href='http://anyway.red/t/?t=https://www.qdaily.com/articles/9355.html'>粉丝拯救了宝利来的故事</a>",
 		"76"
 	],
 	[
