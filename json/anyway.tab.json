@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"86",
+		"87",
 		"2019",
 		"5",
-		"8"
+		"23"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"87": [
+		"抱歉，Facebook",
+		"https://anyway.fm/sorry-facebook/"
+	],
 	"86": [
 		"可爱又可靠 · 在巨鹿路开纹身工作室的 ASH",
 		"https://anyway.fm/ash/"
@@ -435,6 +439,11 @@
 	]
 },
 "quotes": [
+	[
+		"JJ Ying",
+		"想挑战 Apple 的那些公司，还都躲在数据背后瑟瑟发抖",
+		"87"
+	],
 	[
 		"JJ Ying",
 		"Anyway 观影推荐之《<a href='http://anyway.red/t/?t=https://movie.douban.com/subject/27615441/'>网络谜踪</a>》",
