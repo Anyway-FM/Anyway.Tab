@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"87",
+		"88",
 		"2019",
-		"5",
-		"23"
+		"6",
+		"12"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"88": [
+		"看似重聊 Figma 使用体验，其实还是在吐槽 Sketch",
+		"https://anyway.fm/figma-sketch-2"
+	],
 	"87": [
 		"抱歉，Facebook",
 		"https://anyway.fm/sorry-facebook/"
@@ -646,7 +650,7 @@
 	],
 	[
 		"JJ Ying",
-		"<a href='http://anyway.red/t/?t=https://anyway-web.b0.upaiyun.com/images/poster-53.jpg'>本期封面</a>致(è)敬(gǎo)了一下蒂姆·伯顿的电影《<a href='http://anyway.red/t/?t=https://movie.douban.com/subject/1291545/'>大鱼</a>》",
+		"<a href='http://anyway.red/t/?t=https://s.anw.red/images/poster-53.jpg'>本期封面</a>致(è)敬(gǎo)了一下蒂姆·伯顿的电影《<a href='http://anyway.red/t/?t=https://movie.douban.com/subject/1291545/'>大鱼</a>》",
 		"53"
 	],
 	[
@@ -976,7 +980,7 @@
 	],
 	[
 		"Leon Gao",
-		"作为一个 Palm 粉，很喜欢「温润如玉」的 <a href='http://anyway.red/t/?t=http://anyway-web.b0.upaiyun.com/images/palm-pre-plus.jpg'>Palm Pre Plus</a>",
+		"作为一个 Palm 粉，很喜欢「温润如玉」的 <a href='http://anyway.red/t/?t=http://s.anw.red/images/palm-pre-plus.jpg'>Palm Pre Plus</a>",
 		"26"
 	],
 	[
@@ -1061,7 +1065,7 @@
 	],
 	[
 		"JJ Ying",
-		"多语言环境下的设计师「噩梦」：<a href='http://anyway.red/t/?t=http://anyway-web.b0.upaiyun.com/images/macau.jpg'>澳门机场指示牌的日常</a>",
+		"多语言环境下的设计师「噩梦」：<a href='http://anyway.red/t/?t=http://s.anw.red/images/macau.jpg'>澳门机场指示牌的日常</a>",
 		"19"
 	],
 	[
@@ -1076,7 +1080,7 @@
 	],
 	[
 		"JJ Ying",
-		"还没拿到 iPhone 6 Plus 真机但项目又需要录屏的时候，我只能<a href='http://anyway.red/t/?t=http://anyway-web.b0.upaiyun.com/images/imac-iphone6-plus.jpg'>这么办了</a>",
+		"还没拿到 iPhone 6 Plus 真机但项目又需要录屏的时候，我只能<a href='http://anyway.red/t/?t=http://s.anw.red/images/imac-iphone6-plus.jpg'>这么办了</a>",
 		"18"
 	],
 	[
