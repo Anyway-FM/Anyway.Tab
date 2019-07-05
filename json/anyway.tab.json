@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"88",
+		"89",
 		"2019",
-		"6",
-		"12"
+		"7",
+		"5"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"89": [
+		"Palm 的故事（2）",
+		"https://anyway.fm/palm-part-2"
+	],
 	"88": [
 		"看似重聊 Figma 使用体验，其实还是在吐槽 Sketch",
 		"https://anyway.fm/figma-sketch-2"
