@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"89",
+		"91",
 		"2019",
-		"7",
-		"5"
+		"8",
+		"8"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,14 @@
 	]
 },
 "episodes": {
+	"91": [
+		"听众挑刺大全（1）",
+		"https://anyway.fm/bugfix-1"
+	],
+	"90": [
+		"「教练，我又想打篮球了」",
+		"https://anyway.fm/dribbble-2019"
+	],
 	"89": [
 		"Palm 的故事（2）",
 		"https://anyway.fm/palm-part-2"
@@ -1129,7 +1137,7 @@
 	],
 	[
 		"Leon Gao",
-		"iOS 的「<a href='http://anyway.red/t/?t=http://isux.tencent.com/pull-down-to-reflesh.html'>下拉刷新</a>」始作俑者是 Tweetie 之父 Loren Brichter",
+		"iOS 的「<a href='http://anyway.red/t/?t=https://www.zhihu.com/question/20138829/answer/14101125'>下拉刷新</a>」始作俑者是 Tweetie 之父 Loren Brichter",
 		"12"
 	],
 	[
