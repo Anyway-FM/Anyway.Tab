@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"91",
+		"93",
 		"2019",
-		"8",
-		"8"
+		"9",
+		"11"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,14 @@
 	]
 },
 "episodes": {
+	"93": [
+		"设计师要不要学写代码？",
+		"https://anyway.fm/designer-coding/"
+	],
+	"92": [
+		"相机与手机",
+		"https://anyway.fm/camera-phone/"
+	],
 	"91": [
 		"听众挑刺大全（1）",
 		"https://anyway.fm/bugfix-1"
