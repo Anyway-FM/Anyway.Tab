@@ -1,10 +1,10 @@
 {
 "settings": {
 	"latest": [
-		"93",
+		"94",
 		"2019",
 		"9",
-		"11"
+		"25"
 	],
 	"notifications": [
 		"",
@@ -17,6 +17,10 @@
 	]
 },
 "episodes": {
+	"94": [
+		"180° 第十七期 • 漂去硅谷做设计",
+		"https://anyway.fm/wangyi/"
+	],
 	"93": [
 		"设计师要不要学写代码？",
 		"https://anyway.fm/designer-coding/"
