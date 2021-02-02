@@ -1,17 +1,17 @@
 {
 	"manifest_version": 2,
-	
+
 	  "name": "Anyway.Tab",
 	  "short_name": "Anyway",
 	  "description": "把 Anyway.FM 节目中的参考链接推荐（和一些玩笑）显示在 Chrome 新建 Tab 上，同时推送新番的提醒",
-	  "version": "0.1.8",
-	
+	  "version": "0.2.0",
+
 	  "author": "JJ Ying",
-	
+
 	  "chrome_url_overrides": {
 		"newtab": "anyway.html"
 	},
-	
+
 	"icons": {
 		"16": "icons/16.png",
 	    "48": "icons/48.png",

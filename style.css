@@ -8,34 +8,35 @@
 	-webkit-tap-highlight-color: transparent;
 }
 body{
-	width: 100%;
-	height: 100%;
+	width: 100%; height: 80vh;
 	margin: auto;
 	background: #fff;
 	color: #666;
 	overflow: hidden;
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	display: flex;
+	justify-content: center; align-items: center;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,'PingFang SC',sans-serif;
+	font-family: 'Soleil', -apple-system,BlinkMacSystemFont,'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
 a{
 	transition: color .1s ease-in-out;
 }
-::selection{ 
+::selection{
 	background: #ffe324;
 	color: #444;
 }
 blockquote{
 	text-align: left;
-	position: absolute;
-	top: 19%;
-	left: 15%;
-	width: 70%;
+	max-width: 70%;
 }
 .quotation-mark{
 	fill: #ddd;
 	width: 40px;
+	animation: fade-in .5s ease-out both;
 }
 p{
 	font-size: 60px;
+	font-size: calc(1.5rem + 2vmax + .4vmin);
 	line-height: 1.2;
 	font-weight: 700;
 	animation: right-in .4s ease-out 1;
@@ -114,9 +115,9 @@ p strong:after{
 	overflow: hidden;
 }
 cite{
- 	font-size: 22px;
+ 	font-size: calc(1rem + .4vmax + .1vmin);
  	font-style: normal;
- 	font-weight: 300;
+ 	font-weight: 400;
  	color: #ddd;
 	margin-top: 1.3em;
  	display: block;
@@ -172,8 +173,12 @@ footer strong{
 	color: #bbb;
 	margin: 0 auto;
 	transform: translateY(-.8em);
-	font-size: 16px;	
-	animation: fade-in .2s ease-out 1;	
+	font-size: 16px;
+	animation: fade-in .2s ease-out 1;
+}
+@keyframes fade-in{
+	0% {opacity: 0}
+	100% {opacity: 1;}
 }
 footer strong a{
 	color: #ccc;
@@ -238,15 +243,12 @@ body.notifications img{
 }
 /*~Large Reslotuion*/
 @media screen and (min-width: 1600px) {
-	blockquote{
-		top: 30%;
-		width: 70%;
-	}
+
 }
 /*~Small Reslotuion*/
 @media screen and (max-height: 600px) {
 	blockquote{
-		top: 13%;
+
 	}
 	footer strong,
 	.latest-link,
@@ -256,10 +258,10 @@ body.notifications img{
 }
 @media screen and (max-height: 500px) {
 	blockquote{
-		top: 11%;
+
 	}
 	blockquote p{
-		font-size: 40px;
+
 	}
 	footer{
 		background: #fff;
@@ -272,10 +274,10 @@ body.notifications img{
 }
 @media screen and (max-height: 400px) {
 	blockquote{
-		top: 9%;
+
 	}
 	blockquote p{
-		font-size: 30px;
+
 	}
 	footer strong,
 	.latest-link,
@@ -285,17 +287,15 @@ body.notifications img{
 }
 @media screen and (max-width: 1300px) {
 	blockquote{
-		top: 15%;
+
 	}
 	blockquote p{
-		font-size: 52px;
+
 	}
 }
 @media screen and (max-width: 1100px) {
 	blockquote{
-		top: 13%;
-		left: 10%;
-		width: 80%;
+
 	}
 	footer{
 		left: 10%;
@@ -311,10 +311,8 @@ body.notifications img{
 }
 @media screen and (max-width: 1000px) {
 	blockquote{
-		top: 11%;
 	}
 	blockquote p{
-		font-size: 45px;
 	}
 	footer strong{
 		font-size: 12px;
@@ -326,12 +324,9 @@ body.notifications img{
 }
 @media screen and (max-width: 800px) {
 	blockquote{
-		top: 13%;
-		left: 7%;
-		width: 86%;
+
 	}
 	blockquote p{
-		font-size: 40px;
 	}
 	cite{
 		font-size: 14px;
@@ -340,4 +335,18 @@ body.notifications img{
 		left: 7%;
 		width: 86%;
 	}
+}
+@font-face {
+	font-family:'Soleil';
+	src: url(https://s.anw.red/font/soleil-regular.woff2) format('woff2');
+	font-weight:400;
+	font-style:normal;
+	font-display:fallback;
+}
+@font-face {
+	font-family:'Soleil';
+	src: url(https://s.anw.red/font/soleil-semi-bold.woff2) format('woff2');
+	font-weight:700;
+	font-style:normal;
+	font-display:fallback;
 }

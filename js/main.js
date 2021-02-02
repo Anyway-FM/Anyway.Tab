@@ -1,5 +1,44 @@
+var getJSON = function(url, callback) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', url, true);
+  xhr.responseType = 'json';
+  xhr.onload = function() {
+    var status = xhr.status;
+    if (status === 200) {
+      callback(null, xhr.response);
+    } else {
+      callback(status, xhr.response);
+    }
+  };
+  xhr.send();
+};
+
+
+getJSON('http://localhost:8888/anyway/tab/api/v1.php?news=30&quote=10',
+function(err, data){
+  if (err !== null) {
+		console.log(data)
+  } else {
+		update("link","321")
+		localStorage.setItem('last-type',data["type"])
+		localStorage.setItem('last-body',data["body"])
+  }
+});
+
+function update(type,title){
+	var content = document.querySelector('.content')
+	var title = document.querySelector('.quote')
+	var author = document.querySelector('.author')
+	content.classList.add(localStorage.getItem("last-type"))
+	title.innerHTML = localStorage.getItem("last-body")
+	author.innerHTML = "via JJ Ying 健康塑料袋"
+	document.querySelector('.s-link').innerHTML = "Anyway.News"
+}
+
+
 var successQuote = false
 var onlineQuoteUrl = "./json/anyway.tab.json"
+// localStorage.setItem('myCat', 'Tom');
 
 var forceReload = Math.random()
 if (forceReload < 0.06) {
@@ -7,6 +46,8 @@ if (forceReload < 0.06) {
 	  cache:false
 	});
 }
+
+
 
 updateQuote = function(quote, author, episode, source, url) {
 	$("p.quote").html(quote)
@@ -20,99 +61,98 @@ updateQuote = function(quote, author, episode, source, url) {
 }
 
 
-var localQuote = function() {
-	$.getJSON('./json/local.json', function(data) {
-		var x = Math.round(Math.random()*(data['quotes'].length-1))
-		var author = data['quotes'][x][0]
-		var quote = data['quotes'][x][1]
-		var episode = data['quotes'][x][2]
-		var source = data['episodes'][episode][0]
-		var url = data['episodes'][episode][1] + "#title"
-		updateQuote(quote, author, episode, source, url)
-	})
-}
+// var localQuote = function() {
+// 	$.getJSON('./json/local.json', function(data) {
+// 		var x = Math.round(Math.random()*(data['quotes'].length-1))
+// 		var author = data['quotes'][x][0]
+// 		var quote = data['quotes'][x][1]
+// 		var episode = data['quotes'][x][2]
+// 		var source = data['episodes'][episode][0]
+// 		var url = data['episodes'][episode][1] + "#title"
+// 		updateQuote(quote, author, episode, source, url)
+// 	})
+// }
 
-var liveCheck = function() {
-	$.getJSON(onlineQuoteUrl, function(data) {
-		successQuote = true
-		var now = new Date()
-		nowDays = countDays($.format.date( now, "yyyy"),$.format.date( now, "M"),$.format.date( now, "d"))
-		latestDays = countDays(data['settings']['latest'][1],data['settings']['latest'][2],data['settings']['latest'][3])
-		var daysBetween =  nowDays - latestDays
-		
-		//~Get and update notifications
-		if (
-			data['settings']['notifications'][0] 
-			&&
-			(nowDays - countDays(data['settings']['notifications'][1],data['settings']['notifications'][2],data['settings']['notifications'][3]) <= data['settings']['notifications'][4])
-			&&
-			Math.random() <= data['settings']['notifications'][5]
-		) {
-			if (data['settings']['notifications'][6] == "fullscreen") {
-				$("body").addClass("notifications")
-				$("body").html(data['settings']['notifications'][0])
-			}
-			else {
-				$(".quote").html(data['settings']['notifications'][0])
-				$("cite.meta").html("")
-			}
-		}
-		
-		else {
-			var x = Math.round(Math.random()*(data['quotes'].length-1))
-			var author = data['quotes'][x][0]
-			var quote = data['quotes'][x][1]
-			var episode = data['quotes'][x][2]
-			console.log(episode)
-			var source = data['episodes'][episode][0]
-			var url = data['episodes'][episode][1] + "#title"
-			updateQuote(quote, author, episode, source, url)
-		}
-		
-		
-		$("footer").css('opacity','1')
-		var latestEpisode = data['settings']['latest'][0]
-		$(".latest-link").attr('href',data['episodes'][latestEpisode][1] + "#title")
-		$(".latest-episode").text(latestEpisode)
-		$(".latest-title").text(data['episodes'][latestEpisode][0])
-		
-		//~Process footer wording
-		if (daysBetween < 2) {
-			displayDays = "更了！更了！终于更了！"
-		}
-		else if ( daysBetween < 3) {
-			displayDays = "前两天刚上新！该满意了吧！"
-		}
-		else if ( daysBetween < 6) {
-			displayDays = "Anyway.FM 最新一期是 "+ daysBetween + " 天前更新的哟"
-		}
-		else if ( daysBetween < 9) {
-			displayDays = "下面这期已经发布一周了，我们的<a href='http://anyway.fm/post/'>安妮薇邮报</a>应该快发行新一期了哟"
-		}
-		else if ( daysBetween < 11) {
-			displayDays = "我也知道有快十天没更新了，求别催了！这上一期再随便听听吧！"
-		}
-		else if ( daysBetween < 12) {
-			displayDays = "再等等……再等等……应该快更了……"
-		}
-		else if ( daysBetween < 16) {
-			displayDays = "我知道你等不及了……这次他俩肯定又偷懒了，唉……"
-		}
-		else if ( daysBetween < 21) {
-			displayDays = "这都快三个礼拜了，等不及了可以<a href='mailto:hello@anyway.fm'>发邮件</a>给他们问问看"
-		}
-		else if ( daysBetween < 60) {
-			displayDays = "距离上次更新整整 " + daysBetween + " 天了，JJ 和 Leon 难道已经挂了……"
-		}
-		else {
-			displayDays = "如果你能看到这条……很有可能天网已经占领地球了……祝你好运吧……"
-		}
-		$(".days-between").html( displayDays )
-		if ( daysBetween < 4 ) {
-			$(".new-badge").css('display','inline')
-		}
-	})
-}
+// var liveCheck = function() {
+// 	$.getJSON(onlineQuoteUrl, function(data) {
+// 		successQuote = true
+// 		var now = new Date()
+// 		nowDays = countDays($.format.date( now, "yyyy"),$.format.date( now, "M"),$.format.date( now, "d"))
+// 		latestDays = countDays(data['settings']['latest'][1],data['settings']['latest'][2],data['settings']['latest'][3])
+// 		var daysBetween =  nowDays - latestDays
+//
+// 		//~Get and update notifications
+// 		if (
+// 			data['settings']['notifications'][0]
+// 			&&
+// 			(nowDays - countDays(data['settings']['notifications'][1],data['settings']['notifications'][2],data['settings']['notifications'][3]) <= data['settings']['notifications'][4])
+// 			&&
+// 			Math.random() <= data['settings']['notifications'][5]
+// 		) {
+// 			if (data['settings']['notifications'][6] == "fullscreen") {
+// 				$("body").addClass("notifications")
+// 				$("body").html(data['settings']['notifications'][0])
+// 			}
+// 			else {
+// 				$(".quote").html(data['settings']['notifications'][0])
+// 				$("cite.meta").html("")
+// 			}
+// 		}
+//
+// 		else {
+// 			var x = Math.round(Math.random()*(data['quotes'].length-1))
+// 			var author = data['quotes'][x][0]
+// 			var quote = data['quotes'][x][1]
+// 			var episode = data['quotes'][x][2]
+// 			var source = data['episodes'][episode][0]
+// 			var url = data['episodes'][episode][1] + "#title"
+// 			// updateQuote(quote, author, episode, source, url)
+// 		}
+//
+//
+// 		$("footer").css('opacity','1')
+// 		var latestEpisode = data['settings']['latest'][0]
+// 		$(".latest-link").attr('href',data['episodes'][latestEpisode][1] + "#title")
+// 		$(".latest-episode").text(latestEpisode)
+// 		$(".latest-title").text(data['episodes'][latestEpisode][0])
+//
+// 		//~Process footer wording
+// 		if (daysBetween < 2) {
+// 			displayDays = "更了！更了！终于更了！"
+// 		}
+// 		else if ( daysBetween < 3) {
+// 			displayDays = "前两天刚上新！该满意了吧！"
+// 		}
+// 		else if ( daysBetween < 6) {
+// 			displayDays = "Anyway.FM 最新一期是 "+ daysBetween + " 天前更新的哟"
+// 		}
+// 		else if ( daysBetween < 9) {
+// 			displayDays = "下面这期已经发布一周了，我们的<a href='http://anyway.fm/post/'>安妮薇邮报</a>应该快发行新一期了哟"
+// 		}
+// 		else if ( daysBetween < 11) {
+// 			displayDays = "我也知道有快十天没更新了，求别催了！这上一期再随便听听吧！"
+// 		}
+// 		else if ( daysBetween < 12) {
+// 			displayDays = "再等等……再等等……应该快更了……"
+// 		}
+// 		else if ( daysBetween < 16) {
+// 			displayDays = "我知道你等不及了……这次他俩肯定又偷懒了，唉……"
+// 		}
+// 		else if ( daysBetween < 21) {
+// 			displayDays = "这都快三个礼拜了，等不及了可以<a href='mailto:hello@anyway.fm'>发邮件</a>给他们问问看"
+// 		}
+// 		else if ( daysBetween < 60) {
+// 			displayDays = "距离上次更新整整 " + daysBetween + " 天了，JJ 和 Leon 难道已经挂了……"
+// 		}
+// 		else {
+// 			displayDays = "如果你能看到这条……很有可能天网已经占领地球了……祝你好运吧……"
+// 		}
+// 		$(".days-between").html( displayDays )
+// 		if ( daysBetween < 4 ) {
+// 			$(".new-badge").css('display','inline')
+// 		}
+// 	})
+// }
 
 countDays = function(y,m,d) {
 	var days = (parseInt(y) - 1) * 365
@@ -146,12 +186,12 @@ countDays = function(y,m,d) {
 	return days
 }
 
-setTimeout(function() {
-    if ( !successQuote ){
-    	localQuote()
-    }
-}, 600)
+// setTimeout(function() {
+//     if ( !successQuote ){
+//     	localQuote()
+//     }
+// }, 600)
 
-$(window).load(function() {
-	liveCheck()
-})
+// $(window).load(function() {
+// 	liveCheck()
+// })
