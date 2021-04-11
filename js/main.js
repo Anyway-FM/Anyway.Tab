@@ -14,10 +14,10 @@ var getJSON = function(url, callback) {
 };
 
 
-getJSON('http://localhost:8888/anyway/tab/api/v1.php?news=30&quote=10',
+getJSON('http://localhost:7888/anyway/tab/api/v1.php?news=30&quote=10',
 function(err, data){
   if (err !== null) {
-		console.log(data)
+		// console.log(data)
   } else {
 		update("link","321")
 		localStorage.setItem('last-type',data["type"])
@@ -31,9 +31,14 @@ function update(type,title){
 	var author = document.querySelector('.author')
 	content.classList.add(localStorage.getItem("last-type"))
 	title.innerHTML = localStorage.getItem("last-body")
-	author.innerHTML = "via JJ Ying 健康塑料袋"
+	author.innerHTML = "JJ Ying"
 	document.querySelector('.s-link').innerHTML = "Anyway.News"
 }
+
+var displays = parseInt(localStorage.getItem('displays'))
+// localStorage.setItem('displays',1)
+displays += 1
+localStorage.setItem('displays',displays)
 
 
 var successQuote = false

@@ -8,6 +8,8 @@
 	-webkit-tap-highlight-color: transparent;
 }
 body{
+	--main: #ffe324;
+	--text: #666;
 	width: 100%; height: 80vh;
 	margin: auto;
 	background: #fff;
@@ -121,6 +123,7 @@ cite{
  	color: #ddd;
 	margin-top: 1.3em;
  	display: block;
+	text-align: right;
 	animation: right-in-2 .5s ease-out  1;
 }
 @keyframes right-in-2 {
@@ -134,7 +137,7 @@ cite em{
 	font-weight: 100;
 }
 .source{
-	opacity: 0;
+	/* opacity: 0; */
 }
 .author, .source a{
 	color: #999;
