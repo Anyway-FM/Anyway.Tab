@@ -1,14 +1,15 @@
 {
 	"dependencies": {
-		"gulp-clean-css": "*",
-		"gulp-rename": "*",
-		"gulp-load-plugins": "*",
-		"gulp-watch": "*",
-		"gulp-concat": "*",
-		"gulp-uglify": "*",
+		"gulp": "^4.0.2",
 		"gulp-archiver": "*",
 		"gulp-batch-replace": "*",
+		"gulp-clean-css": "*",
+		"gulp-concat": "*",
+		"gulp-htmlmin": "*",
 		"gulp-json-minify": "*",
-		"gulp-htmlmin": "*"
+		"gulp-load-plugins": "*",
+		"gulp-rename": "*",
+		"gulp-uglify": "*",
+		"gulp-watch": "*"
 	}
 }
