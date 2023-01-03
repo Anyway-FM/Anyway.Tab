@@ -13,17 +13,18 @@ gulp.task('watch', function() {
 	gulp.watch(['*','*/*'], ['default']);
  });
  
- gulp.task('pack', function() {
- 	var json = require('./manifest.json');
- 	var latestVersion = json['version'];
- 	var zipName = "Anyway.Tab." + latestVersion + ".zip"
- 	
- 	gulp.src('builds/**')
- 	        .pipe(plugins.archiver(zipName))
- 	        .pipe(gulp.dest('Releases'));
-  });
+gulp.task('pack', function (done) {
+  var json = require('./manifest.json');
+  var latestVersion = json['version'];
+  var zipName = "Anyway.Tab." + latestVersion + ".zip"
+
+  gulp.src('builds/**')
+    .pipe(plugins.archiver(zipName))
+    .pipe(gulp.dest('Releases'));
+  done();    
+});
  
-gulp.task('default', function() {
+gulp.task('default', function (done) {
      
 	gulp.src('anyway.html')
 		.pipe(gulp.dest('builds'));
@@ -37,7 +38,6 @@ gulp.task('default', function() {
 		.pipe(plugins.rename('local.json'))
 		.pipe(gulp.dest('builds/json'));		
 		
-		
 	gulp.src('manifest.json')
 		.pipe(gulp.dest('builds'));
 		
@@ -49,6 +49,6 @@ gulp.task('default', function() {
 	gulp.src(['*.css'])
 		.pipe(plugins.cleanCss())
 		.pipe(gulp.dest('builds'));
-
+  done();
 });
 

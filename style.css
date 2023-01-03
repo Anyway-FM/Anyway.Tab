@@ -8,12 +8,23 @@
 	-webkit-tap-highlight-color: transparent;
 }
 body{
-	--main: #ffe324;
+	--m: #ffe324;
+	--bg: #fff;
+  --text0: #333;
 	--text: #666;
+	--text2: #aaa;
+	--text3: #ccc;
+  --border: #ddd;
+  --curve: cubic-bezier(.08, .82, .2, 1);
+  --curve-out: cubic-bezier(.95, .05, .8, .04);
+  --duration: .3s;
+  --duration-out: .17s;
+  --transition: all var(--duration) var(--curve);
+  --transition-out: all var(--duration-out) var(--curve-out);
 	width: 100%; height: 80vh;
 	margin: auto;
-	background: #fff;
-	color: #666;
+	background: var(--bg);
+	color: var(--text);
 	overflow: hidden;
 	display: flex;
 	justify-content: center; align-items: center;
@@ -22,99 +33,87 @@ body{
 }
 a{
 	transition: color .1s ease-in-out;
+	color: var(--text);
 }
 ::selection{
-	background: #ffe324;
-	color: #444;
+	background: var(--m)
+	color: var(--text);
+}
+.dummy{
+  display: inline-block;
 }
 blockquote{
 	text-align: left;
 	max-width: 70%;
+	display: flex;
+	flex-direction: column;
 }
 .quotation-mark{
 	fill: #ddd;
 	width: 40px;
 	animation: fade-in .5s ease-out both;
 }
-p{
+.title{
 	font-size: 60px;
 	font-size: calc(1.5rem + 2vmax + .4vmin);
 	line-height: 1.2;
 	font-weight: 700;
 	animation: right-in .4s ease-out 1;
+	text-decoration: none;
+	color: var(--text);
+	position: relative;
+	display: inline;
+  max-width: 75ch;
+  transition: var(--transition-out);
+  /* border-bottom: .07em solid var(--m); */
+  align-self: flex-start;
+}
+.title:hover{
+	/* background: var(--m); */
+	color: var(--text0);
+  transition: var(--transition);
+}
+.title::after {
+  transition: var(--transition-out);
+}
+.title:hover::after{
+	display: block;
+	content: "";
+	height: 100%; width: 100%;
+	background: #ffe324;
+	position: absolute;
+  left: 0; bottom: 5px;
+	z-index: -999;
+  transition: var(--transition);
+	animation: underline-in var(--duration) var(--curve) both;
 }
 @keyframes right-in {
 	0%{opacity: 0; transform: translateX(10px);}
 	40%{opacity: 1;}
 	100%{opacity: 1; transform: translateX(0);}
 }
-p a{
-	text-decoration: none;
-	color: #666;
-/*	border-bottom: 6px solid #ddd;*/
-	position: relative;
-	display: inline-block;
-}
-p a:after{
-	display: block;
-	content: "";
-	height: .2em;
-	background: #ffe324;
-	position: absolute;
-	width: 100%;
-	bottom: 5px;
-	z-index: -999;
-	left: 0;
-	transition: all .15s cubic-bezier(.8, 0, .2, 1);
-	animation: underline-in .7s cubic-bezier(.9, 0, .1, 1)  0s 1;
-}
-p a:nth-child(2):after{
-	animation: underline-in-2 .7s cubic-bezier(.9, 0, .1, 1)  0s 1;
-}
-p a:nth-child(3):after{
-	animation: underline-in-3 .7s cubic-bezier(.9, 0, .1, 1)  0s 1;
-}
 @keyframes underline-in {
 	0%{width: 0;}
-	30%{width: 0;}
 	100%{width: 100%;}
 }
-@keyframes underline-in-2 {
-	0%{width: 0;}
-	62%{width: 0;}
-	100%{width: 100%;}
+
+.desc{
+	font-size: 1.5rem;
+	color: var(--text2);
+	max-width: 90ch;
+	margin-top: 1em;
+	line-height: 1.6;
+	animation: right-in .4s ease-out .1s both;
 }
-@keyframes underline-in-3 {
-	0%{width: 0;}
-	78%{width: 0;}
-	100%{width: 100%;}
+.desc a{
+	text-decoration: none;
+	color: var(--text2);
+	border-bottom: 1px solid var(--text3);
+	box-decoration-break: clone;
 }
-p a:hover{
-	color: #444;
-}
-p a:hover:after{
-	height: 90%;
-}
-p em{
-	font-family: "Adobe Caslon Pro", "Times", "Times New Roman", Serif;
-	font-style: italic;
-}
-p code{
-	font-family: Monaco, Consolas, monospace;
-	font-weight: 300;
-}
-p strong{
-	display: inline-block;
-	position: relative;
-}
-p strong:after{
-	content: "．．．．．．．．．．．";
-	position: absolute;
-	bottom: -.3em;
-	left: .35em;
-	opacity: .9;
-	width: 100%;
-	overflow: hidden;
+.desc a:hover{
+	border-color: var(--m);
+	color: var(--text);
 }
 cite{
  	font-size: calc(1rem + .4vmax + .1vmin);
@@ -125,6 +124,7 @@ cite{
  	display: block;
 	text-align: right;
 	animation: right-in-2 .5s ease-out  1;
+	display: none;
 }
 @keyframes right-in-2 {
 	0%{opacity: 0;}
@@ -159,25 +159,35 @@ footer{
 	opacity: 0;
 	position: fixed;
 	left: 15%;
-	width: 70%;
-	height: 80px;
+	width: 70%; height: 80px;
 	text-align: center;
-	bottom: 0;
+	bottom: 1rem;
 	color: #999;
-	border-top: 1px solid #ddd;
 	padding: 0;
 	font-weight: 700;
 }
+footer.show{
+  opacity: 1;
+}
 footer strong{
-	font-weight: 100;
+	font-weight: 400;
 	display: inline-block;
 	background: #fff;
 	padding: 0 1em;
-	color: #bbb;
+	color: #ccc;
 	margin: 0 auto;
-	transform: translateY(-.8em);
-	font-size: 16px;
+	font-size: 1rem;
 	animation: fade-in .2s ease-out 1;
+  display: flex;
+  justify-content: center; align-items: center;
+}
+footer strong::after, footer strong::before{
+  content: "";
+  display: block;
+  flex: 1 0 auto;
+  height: 1px;
+  background: var(--border);
+  margin: 1em;
 }
 @keyframes fade-in{
 	0% {opacity: 0}
@@ -190,7 +200,8 @@ footer strong a{
 }
 .latest-link{
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1.2rem;
+  margin-top: .2rem;
 	color: #999;
 	display: inline-block;
 }
@@ -228,13 +239,15 @@ footer strong a{
 	border-radius: 1em;
 	font-weight: 700;
 }
+.new-badge.show{
+  display: inline;
+}
 /*~ Notifications*/
 body.notifications{
 	height: 80vh;
 	width: 100vw;
 	text-align: center;
-	left: 0;
-	top: 0;
+	left: 0; top: 0;
 	display: flex;
 	align-items: center;
 }
@@ -250,9 +263,7 @@ body.notifications img{
 }
 /*~Small Reslotuion*/
 @media screen and (max-height: 600px) {
-	blockquote{
 
-	}
 	footer strong,
 	.latest-link,
 	cite{
@@ -260,12 +271,7 @@ body.notifications img{
 	}
 }
 @media screen and (max-height: 500px) {
-	blockquote{
 
-	}
-	blockquote p{
-
-	}
 	footer{
 		background: #fff;
 	}
@@ -276,12 +282,7 @@ body.notifications img{
 	}
 }
 @media screen and (max-height: 400px) {
-	blockquote{
 
-	}
-	blockquote p{
-
-	}
 	footer strong,
 	.latest-link,
 	cite{
@@ -289,17 +290,10 @@ body.notifications img{
 	}
 }
 @media screen and (max-width: 1300px) {
-	blockquote{
 
-	}
-	blockquote p{
-
-	}
 }
 @media screen and (max-width: 1100px) {
-	blockquote{
 
-	}
 	footer{
 		left: 10%;
 		width: 80%;
@@ -313,24 +307,19 @@ body.notifications img{
 	}
 }
 @media screen and (max-width: 1000px) {
-	blockquote{
-	}
-	blockquote p{
-	}
+
 	footer strong{
-		font-size: 12px;
+		font-size: .875rem;
+    display: block;
 	}
+  footer strong::before, footer strong::after {display: none;}
 	.latest-link,
 	cite{
 		font-size: 14px;
 	}
 }
 @media screen and (max-width: 800px) {
-	blockquote{
 
-	}
-	blockquote p{
-	}
 	cite{
 		font-size: 14px;
 	}
@@ -338,6 +327,9 @@ body.notifications img{
 		left: 7%;
 		width: 86%;
 	}
+  footer strong {
+    font-size: .75rem;
+  }
 }
 @font-face {
 	font-family:'Soleil';
