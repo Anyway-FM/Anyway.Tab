@@ -10,7 +10,7 @@ if(localStorage.getItem('totalDisplays') === null){
   init()
 }
 
-if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (3 * 60 * 60 * 1000 ) ){ //本地数据为空时去拉数据
+if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (3 * 60 * 60 * 1000 ) ){ //拉数据
   getJSON(urlToLoad + "?v=" + currentDate.getTime(), function(err, data){
     if (err !== null){
       // console.log(data)
@@ -22,6 +22,10 @@ if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (3 * 60 
       localStorage.setItem('thisCycleDisplays', 0)
     }
   })
+  if ((currentDate.getTime() - lastFetchTime) > (3 * 60 * 60 * 1000)) {
+    renderNews()
+    renderLatestEp()
+  }
 }
 else{ //数据不为空时展示数据
   renderNews()
