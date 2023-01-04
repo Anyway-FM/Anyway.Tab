@@ -5,3 +5,4 @@ source/
 builds
 test.html
 archive
+.DS_Store
