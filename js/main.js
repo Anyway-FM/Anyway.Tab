@@ -103,10 +103,10 @@ function footerWording(days){
     output = "前两天刚上新！该满意了吧！"
   }
   else if (days < 6) {
-    output = "Anyway.FM 最新一期是 " + showDays + " 天前更新的哟"
+    output = "Anyway.FM 最新一期是 " + showDays + " 天前更新的"
   }
   else if (days < 9) {
-    output = "下面这期已经发布一周了，我们的<a href='http://anyway.fm/post/'>安妮薇邮报</a>应该快发行新一期了哟"
+    output = "下面这期已经发布一周了，还是看看上面这些链接推荐吧"
   }
   else if (days < 11) {
     output = "我也知道有快十天没更新了，求别催了！这上一期再随便听听吧！"
@@ -128,4 +128,3 @@ function footerWording(days){
   }
   return output
 }
-
