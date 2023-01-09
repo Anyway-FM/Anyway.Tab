@@ -153,7 +153,6 @@ footer strong{
 	color: #ccc;
 	margin: 0 auto;
 	font-size: 1rem;
-	animation: fade-in var(--duration) var(--curve) 1;
   display: flex;
   justify-content: center; align-items: center;
 }
@@ -164,10 +163,6 @@ footer strong::after, footer strong::before{
   height: 1px;
   background: var(--border);
   margin: 1em;
-}
-@keyframes fade-in{
-	0% {opacity: 0}
-	100% {opacity: 1;}
 }
 footer strong a{
 	color: #ccc;
@@ -218,7 +213,10 @@ footer strong a{
 .new-badge.show{
   display: inline;
 }
-
+@keyframes fade-in{
+	0% {opacity: 0}
+	100% {opacity: 1;}
+}
 /* ~Settings */
 aside{
   width: 30vw; height: 100vh;

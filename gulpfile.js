@@ -22,20 +22,20 @@ gulp.task('default', function (done) {
 	gulp.src('anyway.html')
 		.pipe(gulp.dest('builds'));
 		
-	gulp.src('icons/*.png')
-		.pipe(gulp.dest('builds/icons'));
+  gulp.src('assets/*.*')
+		.pipe(gulp.dest('builds/assets'));
 		
 	gulp.src('manifest.json')
 		.pipe(gulp.dest('builds'));
 		
-	gulp.src(['js/*.js'])
+  gulp.src('assets/*.js')
 		.pipe(plugins.uglify())
 		// .pipe(plugins.batchReplace(cdnFile))
-		.pipe(gulp.dest('builds/js'));
+    .pipe(gulp.dest('builds/assets'));
 		
-	gulp.src(['*.css'])
+  gulp.src('assets/*.css')
 		.pipe(plugins.cleanCss())
-		.pipe(gulp.dest('builds'));
+		.pipe(gulp.dest('builds/assets'));
   done();
 });
 
