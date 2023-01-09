@@ -11,15 +11,15 @@
 body{
 	--m: #ffe324;
 	--bg: #fff;
-  --text0: #333;
-	--text: #666;
+  --text0: #222;
+	--text: #555;
 	--text2: #aaa;
 	--text3: #ccc;
   --border: #ddd;
   --curve: cubic-bezier(.08, .82, .2, 1);
   --curve-out: cubic-bezier(.95, .05, .8, .04);
-  --duration: .3s;
-  --duration-out: .17s;
+  --duration: .2s;
+  --duration-out: .24s;
   --transition: all var(--duration) var(--curve);
   --transition-out: all var(--duration-out) var(--curve-out);
 	width: 100%; height: 80vh;
@@ -29,8 +29,7 @@ body{
 	overflow: hidden;
 	display: flex;
 	justify-content: center; align-items: center;
-	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,'PingFang SC',sans-serif;
-	font-family: 'Soleil', -apple-system,BlinkMacSystemFont,'PingFang SC', 'Microsoft YaHei', sans-serif;
+	font-family: ANWE, 'Soleil', -apple-system,BlinkMacSystemFont,'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
 a{
 	transition: color .1s ease-in-out;
@@ -48,18 +47,22 @@ blockquote{
 	max-width: 70%;
 	display: flex;
 	flex-direction: column;
+  opacity: 1;
+  transition: var(--transition);
+  /* animation: fade-in var(--duration) var(--curve) both; */
+}
+.prepared blockquote{
+  opacity: 1;
 }
 .quotation-mark{
 	fill: #ddd;
 	width: 40px;
-	animation: fade-in .5s ease-out both;
 }
 .title{
 	font-size: 60px;
 	font-size: calc(1.5rem + 2vmax + .4vmin);
 	line-height: 1.2;
 	font-weight: 700;
-	animation: right-in .4s ease-out 1;
 	text-decoration: none;
 	color: var(--text);
 	position: relative;
@@ -68,7 +71,10 @@ blockquote{
   transition: var(--transition-out);
   /* border-bottom: .07em solid var(--m); */
   align-self: flex-start;
+  animation: right-in var(--duration) var(--curve) both;
 }
+.msg-title{display: none;}
+.first-use .first-use-title{display: inline;}
 .title:hover{
 	/* background: var(--m); */
 	color: var(--text0);
@@ -76,27 +82,29 @@ blockquote{
 }
 .title::after {
   transition: var(--transition-out);
+  display: block;
+  content: "";
+  left: 0; bottom: .1em;
+  height: 100%; width: 100%;
+  background: #ffe324;
+  position: absolute;
+  z-index: -999;
+  opacity: 0;
+  transform-origin: 0% 0%;
+  transform: scaleX(0);
 }
 .title:hover::after{
-	display: block;
-	content: "";
-	height: 100%; width: 100%;
-	background: #ffe324;
-	position: absolute;
-  left: 0; bottom: 5px;
-	z-index: -999;
   transition: var(--transition);
-	animation: underline-in var(--duration) var(--curve) both;
+  width: 100%;
+  opacity: 1;
+  transform: none;
 }
 @keyframes right-in {
 	0%{opacity: 0; transform: translateX(10px);}
 	40%{opacity: 1;}
 	100%{opacity: 1; transform: translateX(0);}
 }
-@keyframes underline-in {
-	0%{width: 0;}
-	100%{width: 100%;}
-}
+
 
 .desc{
 	font-size: 1.5rem;
@@ -104,7 +112,7 @@ blockquote{
 	max-width: 90ch;
 	margin-top: 1em;
 	line-height: 1.6;
-	animation: right-in .4s ease-out .1s both;
+  animation: right-in var(--duration) var(--curve) calc(var(--duration) / 4)both;
 }
 .desc a{
 	text-decoration: none;
@@ -116,45 +124,8 @@ blockquote{
 	border-color: var(--m);
 	color: var(--text);
 }
-cite{
- 	font-size: calc(1rem + .4vmax + .1vmin);
- 	font-style: normal;
- 	font-weight: 400;
- 	color: #ddd;
-	margin-top: 1.3em;
- 	display: block;
-	text-align: right;
-	animation: right-in-2 .5s ease-out  1;
-	display: none;
-}
-@keyframes right-in-2 {
-	0%{opacity: 0;}
-	40%{opacity: 0; transform: translateX(10px);}
-	80%{opacity: 1;}
-	100%{opacity: 1; transform: translateX(0);}
-}
-cite em{
-	font-style: normal;
-	font-weight: 100;
-}
-.source{
-	/* opacity: 0; */
-}
-.author, .source a{
-	color: #999;
-}
-.source a{
-	text-decoration: none;
-}
-.source a:hover{
-	color: #666;
-}
-.source-episode{
-	margin: 0 .1em;
-}
-.source-episode:before{
-	content: "#";
-}
+
+
 /*~Footer*/
 footer{
 	opacity: 0;
@@ -260,7 +231,7 @@ body.notifications{
 	display: flex;
 	align-items: center;
 }
-bodynotifications .inner{
+body.notifications .inner{
 	max-height: 100%;
 }
 body.notifications img{
@@ -274,8 +245,7 @@ body.notifications img{
 @media screen and (max-height: 600px) {
 
 	footer strong,
-	.latest-link,
-	cite{
+	.latest-link{
 		font-size: 16px;
 	}
 }
@@ -285,16 +255,14 @@ body.notifications img{
 		background: #fff;
 	}
 	footer strong,
-	.latest-link,
-	cite{
+	.latest-link{
 		font-size: 14px;
 	}
 }
 @media screen and (max-height: 400px) {
 
 	footer strong,
-	.latest-link,
-	cite{
+	.latest-link{
 		font-size: 12px;
 	}
 }
@@ -310,8 +278,7 @@ body.notifications img{
 	footer strong{
 		font-size: 14px;
 	}
-	.latest-link,
-	cite{
+	.latest-link{
 		font-size: 16px;
 	}
 }
@@ -322,16 +289,12 @@ body.notifications img{
     display: block;
 	}
   footer strong::before, footer strong::after {display: none;}
-	.latest-link,
-	cite{
+	.latest-link{
 		font-size: 14px;
 	}
 }
 @media screen and (max-width: 800px) {
 
-	cite{
-		font-size: 14px;
-	}
 	footer{
 		left: 7%;
 		width: 86%;
@@ -353,4 +316,12 @@ body.notifications img{
 	font-weight:700;
 	font-style:normal;
 	font-display:fallback;
+}
+@font-face {
+  font-family: ANWE;
+  src: url(https://s.anw.red/anyway.fm/anyway-extra-v.woff2) format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0020, U+3001, U+3002, U+2026, U+FF1A, U+FF0C, U+FF01, U+FF1F, U+FF1B, U+2014, U+3008, U+3009, U+300C, U+300D, U+300A, U+300B, U+300E, U+300F, U+FF08, U+FF09, U+201C, U+201D, U+2018, U+2019, U+007E;
 }

@@ -12,9 +12,7 @@ if(localStorage.getItem('totalDisplays') === null){
 
 if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (3 * 60 * 60 * 1000 ) ){ //拉数据
   getJSON(urlToLoad + "?v=" + currentDate.getTime(), function(err, data){
-    if (err !== null){
-      // console.log(data)
-    }
+    if (err !== null){}
     else{
       storeData(data, 'news')
       storeData(data, 'latestEp')
@@ -25,17 +23,18 @@ if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (3 * 60 
   if ((currentDate.getTime() - lastFetchTime) > (3 * 60 * 60 * 1000)) {
     renderNews()
     renderLatestEp()
+    document.body.classList.add("prepared")
   }
 }
 else{ //数据不为空时展示数据
   renderNews()
   renderLatestEp()
+  document.body.classList.add("prepared")
 }
 
 //计数
 localStorage.setItem('totalDisplays', parseInt(localStorage.getItem('totalDisplays')) + 1)
 localStorage.setItem('thisCycleDisplays', parseInt(localStorage.getItem('thisCycleDisplays')) + 1)
-
 
 function getJSON(url, callback){
   var xhr = new XMLHttpRequest()
@@ -58,17 +57,14 @@ function storeData(data, name){
 }
 
 function renderNews(){
+  var title = document.querySelector('.news-title')
+  var desc = document.querySelector('.desc')
   data = JSON.parse(localStorage.getItem("news"))
   item = data[thisCycleDisplays % data.length]
-	var title = document.querySelector('.title')
-	var author = document.querySelector('.author')
-  var desc = document.querySelector('.desc')
 	document.querySelector('.content').classList.add("news")
 	title.innerHTML = item.title
   title.href = item.link
-	author.innerHTML = item.author
   desc.innerHTML = item.description
-	document.querySelector('.s-link').innerHTML = "Anyway.News"
 }
 
 function renderLatestEp() {
@@ -90,6 +86,7 @@ function renderImage(){
 }
 
 function init(){
+  document.body.classList.add("first-use")
   localStorage.setItem('totalDisplays', 0)
   localStorage.setItem('thisCycleDisplays', 0)
 }
@@ -128,4 +125,3 @@ function footerWording(days){
   }
   return output
 }
-
