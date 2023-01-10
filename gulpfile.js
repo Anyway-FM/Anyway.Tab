@@ -25,6 +25,9 @@ gulp.task('default', function (done) {
   gulp.src('assets/*.*')
 		.pipe(gulp.dest('builds/assets'));
 		
+  gulp.src('icons/*.*')
+    .pipe(gulp.dest('builds/icons'));
+
 	gulp.src('manifest.json')
 		.pipe(gulp.dest('builds'));
 		
