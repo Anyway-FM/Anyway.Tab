@@ -4,7 +4,7 @@
 ![](https://raw.githubusercontent.com/Anyway-Design/Anyway-Tab/master/assets/anyway-tab-preview.png)
 
 # 安装方式
-请前往 [**Google Chrome 网上应用商店**](https://chrome.google.com/webstore/detail/anywaytab/jaoejhbbokpmbndhdopikidehkadhake?hl=zh-CN&gl=CN)安装
+请前往 [**Google Chrome 网上应用商店**](https://chrome.google.com/webstore/detail/anywaytab/jaoejhbbokpmbndhdopikidehkadhake?utm_source=github)安装
 
 
 # 更新历史
