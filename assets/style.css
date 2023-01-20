@@ -31,12 +31,12 @@ body{
 	justify-content: center; align-items: center;
 	font-family: ANWE, 'Soleil', -apple-system,BlinkMacSystemFont,'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
+::selection {
+  background: var(--m);
+  color: var(--text0);
+}
 a{
 	transition: color .1s ease-in-out;
-	color: var(--text);
-}
-::selection{
-	background: var(--m)
 	color: var(--text);
 }
 .dummy{
@@ -55,7 +55,7 @@ blockquote{
   opacity: 1;
 }
 .quotation-mark{
-	fill: #ddd;
+	fill: var(--border);
 	width: 40px;
   opacity: 0;
 }
@@ -148,9 +148,9 @@ footer.show{
 footer strong{
 	font-weight: 400;
 	display: inline-block;
-	background: #fff;
+	background: var(--bg);
 	padding: 0 1em;
-	color: #ccc;
+	color: var(--text3);
 	margin: 0 auto;
 	font-size: 1rem;
   display: flex;
@@ -326,4 +326,15 @@ body.notifications img{
   font-style: normal;
   font-display: swap;
   unicode-range: U+0020, U+3001, U+3002, U+2026, U+FF1A, U+FF0C, U+FF01, U+FF1F, U+FF1B, U+2014, U+3008, U+3009, U+300C, U+300D, U+300A, U+300B, U+300E, U+300F, U+FF08, U+FF09, U+201C, U+201D, U+2018, U+2019, U+007E;
+}
+
+@media (prefers-color-scheme: dark) {
+  body{
+    --bg: #202020;
+    --text0: #222;
+    --text: #bbb;
+    --text2: #717171;
+    --text3: #555;
+    --border: #555;
+  } 
 }
