@@ -73,7 +73,7 @@ function renderLatestEp() {
   document.querySelector('footer').classList.add("show")
   document.querySelector('.latest-episode').innerHTML = latestEpData.epNumber
   document.querySelector('.latest-title').innerHTML = latestEpData.title
-  document.querySelector('.latest-title').href = "https://anyway.fm/" + latestEpData.alias + "/"
+  document.querySelector('.latest-link').href = "https://anyway.fm/" + latestEpData.alias + "/"
   document.querySelector('.days-between').innerHTML = footerWording( days )
 
   if ( days < 3 ) {
