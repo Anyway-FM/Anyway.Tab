@@ -7,10 +7,12 @@ var lastFetchTime = localStorage.getItem('lastFetchTime')
 
 //第一次使用初始化初始化
 if(localStorage.getItem('totalDisplays') === null){
-  init()
+  document.body.classList.add("first-use")
+  localStorage.setItem('totalDisplays', 0)
+  localStorage.setItem('thisCycleDisplays', 0)
 }
 
-if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (3 * 60 * 60 * 1000 ) ){ //拉数据
+if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (1 * 60 * 60 * 1000 ) ){ //拉数据
   getJSON(urlToLoad + "?v=" + currentDate.getTime(), function(err, data){
     if (err !== null){}
     else{
@@ -85,11 +87,6 @@ function renderImage(){
   var item = JSON.parse(localStorage.getItem("images"))
 }
 
-function init(){
-  document.body.classList.add("first-use")
-  localStorage.setItem('totalDisplays', 0)
-  localStorage.setItem('thisCycleDisplays', 0)
-}
 function footerWording(days){
   var showDays = Math.floor(days)
   var output = ""
