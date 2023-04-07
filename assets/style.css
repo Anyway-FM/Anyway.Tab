@@ -88,7 +88,7 @@ blockquote{
   transition: var(--transition-out);
   display: block;
   content: "";
-  left: 0; bottom: .1em;
+  left: 0; bottom: 0;
   height: 100%; width: 100%;
   background: #ffe324;
   position: absolute;
