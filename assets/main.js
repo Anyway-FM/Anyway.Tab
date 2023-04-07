@@ -87,11 +87,6 @@ function renderImage(){
   var item = JSON.parse(localStorage.getItem("images"))
 }
 
-function init(){
-  document.body.classList.add("first-use")
-  localStorage.setItem('totalDisplays', 0)
-  localStorage.setItem('thisCycleDisplays', 0)
-}
 function footerWording(gapDay) {
   const _gapDay = Math.floor(gapDay)
   const tips = [
