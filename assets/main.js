@@ -1,4 +1,5 @@
 const currentDate = new Date()
+const fetchInterval = 1 * 60 * 60 * 1000
 
 // var urlToLoad = "http://localhost:7888/anyway/temp/anyway-tab.json"
 var urlToLoad = "https://s.anw.red/anyway.tab/anyway-tab.json"
@@ -12,9 +13,9 @@ if(localStorage.getItem('totalDisplays') === null){
   localStorage.setItem('thisCycleDisplays', 0)
 }
 
-if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (1 * 60 * 60 * 1000 ) ){ //拉数据
+if(lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > fetchInterval){ //拉数据
   getJSON(urlToLoad + "?v=" + currentDate.getTime(), function(err, data){
-    if (err !== null){}
+    if(err !== null){}
     else{
       storeData(data, 'news')
       storeData(data, 'latestEp')
@@ -22,7 +23,7 @@ if (lastFetchTime === null || (currentDate.getTime() - lastFetchTime) > (1 * 60 
       localStorage.setItem('thisCycleDisplays', 0)
     }
   })
-  if ((currentDate.getTime() - lastFetchTime) > (3 * 60 * 60 * 1000)) {
+  if((currentDate.getTime() - lastFetchTime) > fetchInterval){
     renderNews()
     renderLatestEp()
     document.body.classList.add("prepared")
@@ -69,18 +70,21 @@ function renderNews(){
   desc.innerHTML = item.description
 }
 
-function renderLatestEp() {
+function renderLatestEp(){
   var latestEpData = JSON.parse(localStorage.getItem("latestEp"))
   var days = (currentDate.getTime() / 1000 - latestEpData.pubtime) / 60 / 60 / 24
-  document.querySelector('footer').classList.add("show")
-  document.querySelector('.latest-episode').innerHTML = latestEpData.epNumber
-  document.querySelector('.latest-title').innerHTML = latestEpData.title
-  document.querySelector('.latest-link').href = "https://anyway.fm/" + latestEpData.alias + "/"
-  document.querySelector('.days-between').innerHTML = footerWording( days )
-
-  if ( days < 3 ) {
-    document.querySelector('.new-badge').classList.add("show")
+  if(days < 30){
+    document.querySelector('footer').classList.add("show")
+    document.querySelector('.latest-episode').innerHTML = latestEpData.epNumber
+    document.querySelector('.latest-title').innerHTML = latestEpData.title
+    document.querySelector('.latest-link').href = "https://anyway.fm/" + latestEpData.alias + "/"
+    document.querySelector('.days-between').innerHTML = footerWording( days )
+  
+    if( days < 3 ){
+      document.querySelector('.new-badge').classList.add("show")
+    }
   }
+
 }
 
 function renderImage(){
